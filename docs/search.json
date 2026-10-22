@@ -1,0 +1,317 @@
+[
+  {
+    "objectID": "index.html#section-1",
+    "href": "index.html#section-1",
+    "title": "Seminar Göteborg 2026",
+    "section": "",
+    "text": "[0:30] Let the meadow speak. Handrkov in August: dozens of plant species in flower at the same time, hundreds of insect species."
+  },
+  {
+    "objectID": "index.html#sharing-is-the-norm",
+    "href": "index.html#sharing-is-the-norm",
+    "title": "Seminar Göteborg 2026",
+    "section": "Sharing is the norm",
+    "text": "Sharing is the norm\n≈ 1.5 min\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIn species-rich meadows most plants are generalists and share most of their visitors. Sharing is a problem for a plant: pollen is lost to other species (consumption, wrong stigmas) and foreign pollen arrives on its own stigma (heterospecific pollen, HP). Central question of the whole talk: how do plants in such a meadow still get enough of their own pollen (conspecific pollen, CP)?"
+  },
+  {
+    "objectID": "index.html#the-journey-of-a-pollen-grain",
+    "href": "index.html#the-journey-of-a-pollen-grain",
+    "title": "Seminar Göteborg 2026",
+    "section": "The journey of a pollen grain",
+    "text": "The journey of a pollen grain\n≈ 1 min\n\nRoadmap figure: a simple left-to-right schematic anther → pollinator body → stigma → community network, one icon per stage. Each stage is one part of the talk. Reuse the fly / stigma silhouettes from the LLN graphical abstract (scripts/generate_graphical_abstract_v2.R) so the style stays consistent.\n\n\n\n1The meadow\n\n\n2Pollen presentationanther → pollinator\n\n\n3Pollen depositionpollinator → stigma\n\n\n4The communitysharing network\n\n\n5What’s next\n\n\n\nGuiding idea: plants cannot choose their visitors, but they can control WHEN they offer pollen, and they profit from HOW MANY visits they get and WHERE they grow. Each part shows one of these levers."
+  },
+  {
+    "objectID": "index.html#the-locality",
+    "href": "index.html#the-locality",
+    "title": "Seminar Göteborg 2026",
+    "section": "The locality",
+    "text": "The locality\n≈ 1 min\n\n\n\n\nCzech Republic\n\n\n\n\n\n&gt; 50 entomophilous plant species\n\n\n\n\n15 years of data collection (2011–2025)\n\n\nK Handrkovu near Vernýřov, Central Bohemia (49.8466 N, 15.1498 E). Moist to mesophilous grassland mosaic, two flowering peaks (May, August), mown twice a year. Sampling at the August peak. Founded by Zdeněk Janovský (Janovský et al. 2013)."
+  },
+  {
+    "objectID": "index.html#permanent-plots",
+    "href": "index.html#permanent-plots",
+    "title": "Seminar Göteborg 2026",
+    "section": "Permanent plots",
+    "text": "Permanent plots\n≈ 1 min\n\n\n\n\nplots are marked\n\n\n\n\n\nrecovered every year\n\n\n\n\n\n93 plots in total\n\n\n\n\nCheck plot number and size. The manuscripts disagree: SCAPE talk and LLN paper say 93 plots of 4 × 4 m, HanNullNet README says 96 plots of 4 × 4 m, HanSpaNet says 98 plots of 8 × 8 m with 64 subplots of 1 × 1 m."
+  },
+  {
+    "objectID": "index.html#plant-and-pollinator-survey",
+    "href": "index.html#plant-and-pollinator-survey",
+    "title": "Seminar Göteborg 2026",
+    "section": "Plant and pollinator survey",
+    "text": "Plant and pollinator survey\n≈ 1.5 min\n\n\n\n\nFlowering stalks in 64 cells per plot, twice per season\n\n\n\n\n\n“Snapshot” surveys: insects touching reproductive organs\n\n\n\n\n42 378 plot surveys · 68 460 interactions · 176 pollinator taxa × 55 plant species\n\n\nNumbers from the SCAPE 2026 dataset (2011–2025). Note: the DiuHanPolNet summary reports 58 451 interactions, 53 plants and 174 pollinators (different filtering). Use one consistent set in the talk."
+  },
+  {
+    "objectID": "index.html#from-above",
+    "href": "index.html#from-above",
+    "title": "Seminar Göteborg 2026",
+    "section": "From above",
+    "text": "From above\n≈ 0.5 min\n\n\n\n\n\n\nDrone view: the scale of the meadow and the grid of plots. Short, atmospheric."
+  },
+  {
+    "objectID": "index.html#years-of-networks",
+    "href": "index.html#years-of-networks",
+    "title": "Seminar Göteborg 2026",
+    "section": "15 years of networks",
+    "text": "15 years of networks\n≈ 1 min\n\n\n\n\n\n\nOne plant-pollinator network per year. Same meadow, same method, very different networks: this year-to-year turnover will come back in Part 4. Transition: before networks, start with the smallest unit, the pollen grain leaving the anther."
+  },
+  {
+    "objectID": "index.html#why-should-timing-matter",
+    "href": "index.html#why-should-timing-matter",
+    "title": "Seminar Göteborg 2026",
+    "section": "Why should timing matter?",
+    "text": "Why should timing matter?\n≈ 1 min\n\n\nOnly a tiny fraction of pollen reaches a conspecific stigma\nPollen presentation theory: plants can dose pollen to pollinators (Harder and Thomson 1989)\nWith shared pollinators, when pollen is offered may decide who carries it\n\n\n\nOptional: add Harder & Wilson 1994, LeBuhn & Holsinger 1998 and Stone et al. 1998 to techroom/references.bib (from Psani_clanku/2021/START_paper/pollen_presentation_references.bib).\n\n\nPollen is lost through consumption, grooming and transfer to the wrong species. Gradual dispensing should pay off with many, inefficient pollinators; dumping all pollen at once should pay off with few, efficient ones."
+  },
+  {
+    "objectID": "index.html#three-species-three-strategies",
+    "href": "index.html#three-species-three-strategies",
+    "title": "Seminar Göteborg 2026",
+    "section": "Three species, three strategies",
+    "text": "Three species, three strategies\n≈ 1 min\n\nThree photos side by side, each with one line of text:\n\nSuccisa pratensis: open flowers, accessible pollen, mainly pollen-feeding hoverflies\nCentaurea jacea: pollen pumped out gradually (Asteraceae pump), mainly bees\nTrifolium hybridum: closed flowers, explosive release when opened, bees only\n\nPhotos available: images/Succisa_pratensis.png, images/Centaurea_jaceae.png. A Trifolium hybridum photo is missing."
+  },
+  {
+    "objectID": "index.html#when-is-pollen-available",
+    "href": "index.html#when-is-pollen-available",
+    "title": "Seminar Göteborg 2026",
+    "section": "When is pollen available?",
+    "text": "When is pollen available?\n≈ 1.5 min\n\n\n\n\n\n\nŠtenc et al. (2023)\n\n\n\nSuccisa releases its pollen in the morning.Centaurea and Trifolium peak in the early afternoon.\n\n\n\nŠtenc et al. 2023, American Journal of Botany. Pollen available per inflorescence over the day."
+  },
+  {
+    "objectID": "index.html#pollinators-track-pollen",
+    "href": "index.html#pollinators-track-pollen",
+    "title": "Seminar Göteborg 2026",
+    "section": "Pollinators track pollen",
+    "text": "Pollinators track pollen\n≈ 1 min\n\n\n\n\n\n\nThis image is a schematic (no axis values). Replace it with the real visitation-vs-pollen figure of START I (e.g. Tablo2.pdf or kombograf_ultra_mega6.pdf in Psani_clanku/2021/START_paper), or keep it as a concept and say so.\n\n\nKey result of START I: visitation of C. jacea and T. hybridum closely matched pollen availability; S. pratensis pollinators peaked with a slight delay after the morning release."
+  },
+  {
+    "objectID": "index.html#what-do-pollinators-carry",
+    "href": "index.html#what-do-pollinators-carry",
+    "title": "Seminar Göteborg 2026",
+    "section": "What do pollinators carry?",
+    "text": "What do pollinators carry?\n≈ 1.5 min\n\n\n\n\n\n\n\n\nŠtenc et al. (2025)\n\n\n\n\nSuccisa: most pollen in the morning, then quantity and purity drop\nCentaurea, Trifolium: more even loads through the day\nExplained by plant density (Centaurea) and flower morphology with release strategy (Trifolium)\n\n\n\n\nŠtenc et al. 2025, PPEES 67: 125868. Conspecific pollen on pollinator bodies over the day (log scale), by pollinator taxon."
+  },
+  {
+    "objectID": "index.html#pollen-must-flow",
+    "href": "index.html#pollen-must-flow",
+    "title": "Seminar Göteborg 2026",
+    "section": "Pollen must flow",
+    "text": "Pollen must flow\n≈ 1 min\n\n\n\n\n\n\nŠtenc et al. (2025)\n\n\nPollinator performance = visitation activity per flowering stalk × conspecific pollen grains on the body. Succisa is served by hoverflies early in the morning (Eristalis tenax, Helophilus), Centaurea and Trifolium by Apis in the afternoon. The plants split the day: diurnal stratification of pollen transfer lowers the cost of sharing pollinators."
+  },
+  {
+    "objectID": "index.html#and-between-years",
+    "href": "index.html#and-between-years",
+    "title": "Seminar Göteborg 2026",
+    "section": "And between years?",
+    "text": "And between years?\n≈ 0.5 min\n\nOne slide on Freudenfeld et al. (2025) (AoB Plants): “Interannual differences in pollinator contributions to pollen transfer are mainly driven by changes in pollinator abundance”. Suggested: one key figure plus one sentence. Figure source: ask Martin, or use Psani_clanku/2024/Martin. Optional: cut if time is short.\n\n\nBridge: who carries the pollen changes from year to year, mainly because pollinator abundances change, not because their per-capita behaviour changes. So what arrives on the stigma?"
+  },
+  {
+    "objectID": "index.html#part-2-in-one-sentence",
+    "href": "index.html#part-2-in-one-sentence",
+    "title": "Seminar Göteborg 2026",
+    "section": "Part 2 in one sentence",
+    "text": "Part 2 in one sentence\n≈ 0.5 min\n\n\nPlants cannot choose their pollinators,but they can choose when to offer pollen."
+  },
+  {
+    "objectID": "index.html#from-body-to-stigma",
+    "href": "index.html#from-body-to-stigma",
+    "title": "Seminar Göteborg 2026",
+    "section": "From body to stigma",
+    "text": "From body to stigma\n≈ 1 min\n\n\n\n\nPollen on the body\n\n\n\n\n\nPollen on the stigma\n\n\n\n\nDefine terms once: conspecific pollen (CP) = own species; heterospecific pollen (HP) = other species. Single-visit deposition (SVD) = what one visit leaves. Terminal pollen deposition (TPD) = the final load on an old stigma. Focal species from now on: Succisa pratensis, a core species of the meadow network (Part 4)."
+  },
+  {
+    "objectID": "index.html#one-visit-is-a-lottery",
+    "href": "index.html#one-visit-is-a-lottery",
+    "title": "Seminar Göteborg 2026",
+    "section": "One visit is a lottery",
+    "text": "One visit is a lottery\n≈ 1.5 min\n\n\n\n\n\n\nAdd the key numbers from the LLN manuscript (New Phytologist, submitted 2026): drop from body load to SVD, and the result that SVD does not differ among Eristalis, Helophilus and Bombus (Kruskal–Wallis). Check that this figure reads well at slide size.\n\n\nSVD experiments 2022–2024 on bagged Succisa inflorescences. Individual visits are highly variable and mechanically inefficient, and dominant pollinator taxa are functionally equivalent per visit."
+  },
+  {
+    "objectID": "index.html#but-the-final-load-is-stable",
+    "href": "index.html#but-the-final-load-is-stable",
+    "title": "Seminar Göteborg 2026",
+    "section": "But the final load is stable",
+    "text": "But the final load is stable\n≈ 1.5 min\n\n\n\n\n\n\n\n\n\n\n\n\n\nCV drops from body → SVD → TPD. Variance partitioning of TPD (years, days, plants, stigmas): temporal components explain negligible CP variance; most variance sits among individual stigmas and plants. [Fill in the exact variance shares from MS_FML.qmd results.]"
+  },
+  {
+    "objectID": "index.html#the-law-of-large-numbers",
+    "href": "index.html#the-law-of-large-numbers",
+    "title": "Seminar Göteborg 2026",
+    "section": "The law of large numbers",
+    "text": "The law of large numbers\n≈ 1.5 min\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonte Carlo simulation parameterised by empirical SVD and visitation rates: accumulation of many independent, noisy visits is sufficient to reproduce the stable terminal CP loads observed in the field. HP is different: not predicted by the null model, depends on the floral neighbourhood, and is diluted by high conspecific floral density. Štenc et al., submitted to New Phytologist."
+  },
+  {
+    "objectID": "index.html#does-this-hold-across-a-landscape",
+    "href": "index.html#does-this-hold-across-a-landscape",
+    "title": "Seminar Göteborg 2026",
+    "section": "Does this hold across a landscape?",
+    "text": "Does this hold across a landscape?\n≈ 1 min\n\nMap of Slavkovský les PLA with the 60 Succisa localities (coordinates in envi_blizny.csv). Plus a photo of a typical locality.\n\n60 localities, 2022–2023, ≈ 3 000 stigmas (n = 2 931 in the trait model)\n3 stigmas per plant, male-phase flowers, one sampling day per locality and year\n20-min pollinator transects, morning and afternoon\nFill in: number of plants sampled per locality (still TODO in the manuscript)\n\nCredit: MSc thesis of Natálie Hanusová (2024), supervised by J. Štenc.\n\n\nHandrkov is a single meadow. The Slavkovský les data test the same idea over a heterogeneous landscape of meadows, wetland margins and forest edges."
+  },
+  {
+    "objectID": "index.html#where-does-the-variance-come-from",
+    "href": "index.html#where-does-the-variance-come-from",
+    "title": "Seminar Göteborg 2026",
+    "section": "Where does the variance come from?",
+    "text": "Where does the variance come from?\n≈ 2 min\n\n\n\n\n\n\n\n\n\n\nCP: mostly the individual plant (≈ 79 %), little locality × year (≈ 13 %)\nHP: locality × year (≈ 43 %) as large as plant (≈ 41 %)\nVisitor composition did not predict CP or HP loads\nHP followed the landscape: flowerhead number, distance to water, marsh area (dbRDA)\n\n\n\n\nFix the figure before use. Its percentage labels sit on the wrong segments: for CP, 8.4 % belongs to stigma and 12.7 % to locality × year (variance_components.csv). For HP, 16 % belongs to stigma.\n\n\nBayesian Poisson hierarchical model, ICCs. CP stays locally buffered, consistent with the law of large numbers across space. HP is a landscape-context problem. HP dbRDA: n_flowerheads F = 21.5, p = 0.001; dist_water F = 7.9, p = 0.008; marsh area F = 5.1, p = 0.023; adj R² = 0.35."
+  },
+  {
+    "objectID": "index.html#taller-plants-get-more-pollen",
+    "href": "index.html#taller-plants-get-more-pollen",
+    "title": "Seminar Göteborg 2026",
+    "section": "Taller plants get more pollen",
+    "text": "Taller plants get more pollen\n≈ 1.5 min\n\nNew figure needed: rate ratio plot (forest plot) of within-locality effects of stem height and flowerhead diameter on CP and HP. Data in outputs/tables/plant_trait_effects.csv. Photo idea: a tall Succisa above the grass.\n\n\n\n\n\n\n\n\n\nWithin-locality effect (per 1 SD)\nCP\nHP\n\n\n\n\nStem height\nRR 1.11 (1.04–1.19), p = 0.003\n1.02, n.s.\n\n\nFlowerhead diameter\n1.07 (1.00–1.14), p = 0.05\nRR 1.10 (1.01–1.19), p = 0.02\n\n\n\n\nWithin a locality, plants taller than their neighbours receive about 11 % more conspecific pollen per SD of height. Height does not affect HP. Larger flowerheads collect slightly more HP. But: traits explain almost none of the plant-level variance (ICC 0.793 → 0.794). Height shifts the mean; most plant-to-plant variation remains position, microhabitat or chance."
+  },
+  {
+    "objectID": "index.html#pollen-deposition-through-a-flowers-life",
+    "href": "index.html#pollen-deposition-through-a-flowers-life",
+    "title": "Seminar Göteborg 2026",
+    "section": "Pollen deposition through a flower’s life",
+    "text": "Pollen deposition through a flower’s life\n≈ 2 min\n\n\n\n\n\n\n\n\n\n\n\n\n\nRedraw the GAMM figure: the confidence bands are broken and “Unknown” / “SC” add noise. Show SI vs SIC only. Literature synthesis: 36 species, 23 families, 49 surveys, 194 time-stamped records.\n\n\nMeta-analysis of published deposition time series (Štenc, in prep.). Mating system best predicts the curve shape (deviance explained 56.8 %). Self-incompatible species accumulate pollen over a broader part of flower life (median AUC 0.72 vs 0.14 in SIC; p_adj = 0.024) but rarely reach P/O ≥ 1 (1 of 7 surveys). Long accumulation without saturation: a sign of chronic pollen limitation in obligate outcrossers. Bridge back to Succisa: protandrous, long-lived stigmas, hence the value of many visits."
+  },
+  {
+    "objectID": "index.html#part-3-in-one-sentence",
+    "href": "index.html#part-3-in-one-sentence",
+    "title": "Seminar Göteborg 2026",
+    "section": "Part 3 in one sentence",
+    "text": "Part 3 in one sentence\n≈ 0.5 min\n\n\nMany noisy visits add up to a reliable dose of own pollen.Foreign pollen depends on the neighbours.\n\n\n\nSynthesis of Parts 2 and 3: TIME (presentation schedule), NUMBERS (law of large numbers), SPACE (plant height, landscape context for HP). All three depend on who else is in the community. That leads to the network."
+  },
+  {
+    "objectID": "index.html#plants-linked-by-shared-pollinators",
+    "href": "index.html#plants-linked-by-shared-pollinators",
+    "title": "Seminar Göteborg 2026",
+    "section": "Plants linked by shared pollinators",
+    "text": "Plants linked by shared pollinators\n≈ 1 min\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrom the bipartite plant-pollinator web to the plant-plant pollinator-sharing network. Every shared visitor is a potential route for HP. Shortened version of the SCAPE 2026 story. If time allows, reuse the airport analogy slide from SCAPE."
+  },
+  {
+    "objectID": "index.html#a-stable-core",
+    "href": "index.html#a-stable-core",
+    "title": "Seminar Göteborg 2026",
+    "section": "A stable core",
+    "text": "A stable core\n≈ 1.5 min\n\n\n\n\n\n\nk-core decomposition per year, null model of 1 000 permutations per year. Six species are central in the sharing network across 15 years: Centaurea jacea, Selinum carvifolia, Succisa pratensis, Pimpinella saxifraga, Achillea ptarmica, Ranunculus acris. Plant identity explains 38 % of centrality variance beyond floral abundance (44 %). Note that the two best-studied species of Parts 2 and 3, Succisa and Centaurea, are both core species."
+  },
+  {
+    "objectID": "index.html#drought-concentrates-visits-on-the-core",
+    "href": "index.html#drought-concentrates-visits-on-the-core",
+    "title": "Seminar Göteborg 2026",
+    "section": "Drought concentrates visits on the core",
+    "text": "Drought concentrates visits on the core\n≈ 2 min\n\n\n\n\n\n\n\n\n\n\n\n\n\nRecurring summer drought in 2011–2025. The core holds about 14 % of flowers but receives 67 % of visits on average, rising from 34–55 % (2011–14) to 84–88 % (2023–25). In dry years peripheral flowering drops about threefold, core flowering does not."
+  },
+  {
+    "objectID": "index.html#a-more-fragile-network",
+    "href": "index.html#a-more-fragile-network",
+    "title": "Seminar Göteborg 2026",
+    "section": "A more fragile network",
+    "text": "A more fragile network\n≈ 1.5 min\n\n\n\n\n\n\nCo-extinction simulation following Memmott, Waser, and Price (2004)\n\n\n\nLosing the core costs more in dry years and more every year\n\n\n\nCo-extinction simulations (Memmott et al. 2004). Core-first removal: R from 0.69 (2011) to 0.41–0.43 (2023–25). Robustness gap grows by about 0.022 per year. Link to pollen: if most visits go to a few core plants, those plants share almost every insect. What does that mean for the pollen arriving on their stigmas? That is the open question of Part 5."
+  },
+  {
+    "objectID": "index.html#visits-are-not-pollen",
+    "href": "index.html#visits-are-not-pollen",
+    "title": "Seminar Göteborg 2026",
+    "section": "Visits are not pollen",
+    "text": "Visits are not pollen\n≈ 1.5 min\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nConcept, not data. Pollen-transfer networks built from stigma loads and body loads, compared to visitation networks. Does pollen actually flow along the same routes, in the same direction and strength?"
+  },
+  {
+    "objectID": "index.html#the-price-of-being-in-the-core",
+    "href": "index.html#the-price-of-being-in-the-core",
+    "title": "Seminar Göteborg 2026",
+    "section": "The price of being in the core",
+    "text": "The price of being in the core\n≈ 1 min\n\nProject “Apparent competition bottleneck” (pitch stage). Hypothesis: when drought crowds pollinators onto the core, core plants share nearly every insect. This should increase heterospecific pollen deposition on core stigmas and may be a hidden cost that prevents competitive exclusion.\nSuggested visual: pollinator-sharing network in a wet year (2012) vs a dry year (2015), side by side, plus the question “more HP on Succisa in dry years?”. Link to SucTemDep: Succisa stigma loads 2022–2024 at Handrkov as a first test."
+  },
+  {
+    "objectID": "index.html#time-of-day-as-a-niche-axis",
+    "href": "index.html#time-of-day-as-a-niche-axis",
+    "title": "Seminar Göteborg 2026",
+    "section": "Time of day as a niche axis",
+    "text": "Time of day as a niche axis\n≈ 1 min\n\nProject DiuHanPolNet (manuscript draft). Diurnal stratification structures the network: “global generalists, local specialists”.\n\nHourly interaction rewiring ≈ 34 %\nDiurnal stratification reduces apparent competition by &gt; 40 % per year\nPollinators shift foraging time away from dominant competitors (Apis, dominant Diptera)\n\nThis scales Part 2 (three species) to the whole community. Decide whether the harmonogram below reads well at slide size."
+  },
+  {
+    "objectID": "index.html#space-as-a-niche-axis",
+    "href": "index.html#space-as-a-niche-axis",
+    "title": "Seminar Göteborg 2026",
+    "section": "Space as a niche axis",
+    "text": "Space as a niche axis\n≈ 1 min\n\nProject HanSpaNet. Fine-scale spatial clumping of plants: aggregated species “steal” visits from dominant foragers, dispersed neighbours lose. This scales the Slavkovský les and plant height results to the community. Decide whether to show the graphical abstract below or one result plot."
+  },
+  {
+    "objectID": "index.html#the-next-dry-summers",
+    "href": "index.html#the-next-dry-summers",
+    "title": "Seminar Göteborg 2026",
+    "section": "The next dry summers",
+    "text": "The next dry summers\n≈ 0.5 min\n\n\n\n\n\n\nOptional: HanFutNet (ERGM): binary structure stays stable under drought, interaction strengths rewire. HanNullNet: is stability built by spatial or temporal turnover? Pick at most one, or keep both as “questions we are working on” in one line each."
+  },
+  {
+    "objectID": "index.html#take-home-messages",
+    "href": "index.html#take-home-messages",
+    "title": "Seminar Göteborg 2026",
+    "section": "Take-home messages",
+    "text": "Take-home messages\n≈ 2 min\n\n\n\n\n01 Timing\n\n\nPollen presentation schedules split the day among co-flowering plants\n\n\n\n\n\n\n02 Numbers\n\n\nMany noisy visits give a stable dose of own pollen. Foreign pollen follows the landscape\n\n\n\n\n\n\n\n03 Community\n\n\nA stable core carries the network, and drought makes it ever more important\n\n\n\n\n\nAdd one small image per card (reuse takehome_*.png style from SCAPE or new icons)."
+  },
+  {
+    "objectID": "index.html#the-handrkov-team",
+    "href": "index.html#the-handrkov-team",
+    "title": "Seminar Göteborg 2026",
+    "section": "The Handrkov team",
+    "text": "The Handrkov team\n≈ 0.5 min\n\n\n\n\n\n\nAcknowledgements: co-authors (Janovský, Hadrava, Mikát, Matoušková, Freudenfeld, Švanda, Ryšan, Pijálková, Horčičková, Straka, Bosch), students (N. Hanusová), field volunteers, funding (GAČR, GAUK, CREAF postdoc). Check funding numbers."
+  },
+  {
+    "objectID": "index.html#join-us",
+    "href": "index.html#join-us",
+    "title": "Seminar Göteborg 2026",
+    "section": "Join us",
+    "text": "Join us\n\n\nhttps://pollination-ecology-group.github.io/Handrkov/ | jakubstenc@gmail.com\n\n\nOptional: Ecoflor 2027 in Prague invitation (logo2027.png and ecoflor_qr.png are in images/)."
+  },
+  {
+    "objectID": "index.html#section-2",
+    "href": "index.html#section-2",
+    "title": "Seminar Göteborg 2026",
+    "section": "",
+    "text": "Thank you for your attention!\n\n\n\n\nJakub Štenc\n\n\njakubstenc@gmail.com\n\n\nCharles University, Prague & CREAF, Barcelona"
+  },
+  {
+    "objectID": "index.html#backup-community-stability-20222024",
+    "href": "index.html#backup-community-stability-20222024",
+    "title": "Seminar Göteborg 2026",
+    "section": "Backup: community stability 2022–2024",
+    "text": "Backup: community stability 2022–2024\n\n\n\n\n\n\nLLN paper: Morisita–Horn similarity of visitor spectra and plant community across the three years; per-capita visitation vs local Succisa abundance (density dilution)."
+  },
+  {
+    "objectID": "index.html#backup-succisa-abundance-in-space-and-time",
+    "href": "index.html#backup-succisa-abundance-in-space-and-time",
+    "title": "Seminar Göteborg 2026",
+    "section": "Backup: Succisa abundance in space and time",
+    "text": "Backup: Succisa abundance in space and time"
+  },
+  {
+    "objectID": "index.html#backup-slavkovský-les-cv",
+    "href": "index.html#backup-slavkovský-les-cv",
+    "title": "Seminar Göteborg 2026",
+    "section": "Backup: Slavkovský les CV",
+    "text": "Backup: Slavkovský les CV"
+  },
+  {
+    "objectID": "index.html#backup-visitors-vs-pollen-loads-dbrda",
+    "href": "index.html#backup-visitors-vs-pollen-loads-dbrda",
+    "title": "Seminar Göteborg 2026",
+    "section": "Backup: visitors vs pollen loads (dbRDA)",
+    "text": "Backup: visitors vs pollen loads (dbRDA)"
+  },
+  {
+    "objectID": "index.html#backup-deposition-curves-by-life-form",
+    "href": "index.html#backup-deposition-curves-by-life-form",
+    "title": "Seminar Göteborg 2026",
+    "section": "Backup: deposition curves by life form",
+    "text": "Backup: deposition curves by life form\n\n\n\n\n\n\n\n\n\n\n\n\n\nSemelparous species: higher cumulative deposition than iteroparous ones."
+  },
+  {
+    "objectID": "index.html#backup-pollen-on-stigma-and-pollinator",
+    "href": "index.html#backup-pollen-on-stigma-and-pollinator",
+    "title": "Seminar Göteborg 2026",
+    "section": "Backup: pollen on stigma and pollinator",
+    "text": "Backup: pollen on stigma and pollinator"
+  },
+  {
+    "objectID": "index.html#references",
+    "href": "index.html#references",
+    "title": "Seminar Göteborg 2026",
+    "section": "References",
+    "text": "References\n\n\nFreudenfeld, Martin, Jakub Štenc, Jiří Hadrava, Michael Mikát, Eva Matoušková, Klára Daňková, Tomáš Jor, et al. 2025. “Interannual Differences in Pollinator Contributions to Pollen Transfer Are Mainly Driven by Changes in Pollinator Abundance.” AoB Plants 17 (2): plaf009.\n\n\nHarder, L. D., and J. D. Thomson. 1989. “Evolutionary Options for Maximizing Pollen Dispersal of Animal- Pollinated Plants.” American Naturalist 133 (3): 323344. https://doi.org/10.1086/284922.\n\n\nJanovský, Zdeněk, Michael Mikát, Jiří Hadrava, Eva Horčičková, Kateřina Kmecová, Doubravka Požárová, Jan Smyčka, and Tomáš Herben. 2013. “Conspecific and Heterospecific Plant Densities at Small-Scale Can Drive Plant-Pollinator Interactions.” PLoS ONE 8: 77361. https://doi.org/10.1371/journal.pone.0077361.\n\n\nMemmott, Jane, Nickolas M. Waser, and Mary V. Price. 2004. “Tolerance of Pollination Networks to Species Extinctions.” Proceedings of the Royal Society B: Biological Sciences 271: 2605–11. https://doi.org/10.1098/rspb.2004.2909.\n\n\nŠtenc, Jakub, Lukáš Janošík, Eva Matoušková, Jiří Hadrava, Michael Mikát, and Zdeněk Janovský. 2023. “Pollinator Visitation Closely Tracks Diurnal Patterns in Pollen Release.” American Journal of Botany, e16179. https://doi.org/10.1002/AJB2.16179.\n\n\nŠtenc, Jakub, Lukáš Janošı́k, Martin Freudenfeld, Eva Matoušková, Jiřı́ Hadrava, Michael Mikát, Klára Daňková, et al. 2025. “Pollen Presentation Mitigates Competition for Pollinators Due to Diurnal Stratification of Pollen Transfer.” Perspectives in Plant Ecology, Evolution and Systematics 67: 125868."
+  }
+]

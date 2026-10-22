@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+/.quarto/
+/site_libs/
+
+**/*.quarto_ipynb
+
+*.tif
+*.tiff
+images/cj-logo*
