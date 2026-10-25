@@ -41,7 +41,7 @@ Thread: "One pollen grain's journey through a shared meadow"
  5  Work in progress & future ..........................  4.5 min   pollen networks, price of the core (+ Succisa HP by year), diurnal
  6  Take-home + thanks .................................  2.5 min
                                                          -------
-                                                          63 min of timing badges (+ ~1.5 min unbadged)  -> CUT ~24 min
+                                                          67 min of timing badges (+ ~1.5 min unbadged)  -> CUT ~28 min
 
  Suggested cuts (≈ 10 min):
    - Deposition curves meta-analysis -> backup ........................ -2
@@ -1431,21 +1431,125 @@ Mean grains per terminal-stage stigma (± SE): CP 20.5, 20.5, 27.4; HP 35.2, 50.
 Apparent competition bottleneck project (pitch stage): core species sharing most visits may pay a cost in foreign pollen, which could be one reason they do not exclude the periphery.
 :::
 
-## Time of day as a niche axis
+## The whole meadow splits the day
+
+<span class="timing">≈ 1.5 min</span>
+
+::::: columns
+::: {.column width="30%"}
+![](images/pollen_pres.png){width="100%"}
+
+::: {style="font-size: 18px; text-align: center; color: #64748B;"}
+Part 2: three species release pollen at different times
+:::
+:::
+
+::: {.column width="70%"}
+::: r-stack
+![](images/diu_ridges_all.png){.fragment .fade-out fragment-index=1 height="430"}
+
+![](images/diu_ridges_start.png){.fragment .fade-in fragment-index=1 height="430"}
+:::
+:::
+:::::
+
+::: {style="font-size: 21px; text-align: center;"}
+When pollinators visit each plant species, 15 years of plot surveys
+:::
+
+::: notes
+Bridge from Part 2: the three START species split the day by when they offer pollen. Is that a curiosity of three species, or how the whole meadow works?
+Each ridge: distribution of all recorded visits to one plant species over the day, 2011–2025 (≈ 42 000 records, 15 most visited species plus the START species).
+Click: the three START species keep their order in the community data. Mean visit time: Succisa 12.7 h, Centaurea 13.5 h, Trifolium hybridum 14.4 h. The community as a whole forms a succession from Plantago and Hypericum in the morning to Achillea and Trifolium in the afternoon.
+Plant–insect pairs with matching activity times interact more (GLMM β = −0.05 per hour of mismatch, p < 0.001; ERGM on the meta-web β = −0.52, p < 0.001).
+:::
+
+## Global generalists, local specialists
 
 <span class="timing">≈ 1 min</span>
 
-::: {.gap style="margin-top: 20px;"}
-Project DiuHanPolNet (manuscript draft). Diurnal stratification structures the network: "global generalists, local specialists".
+![](images/diu_conceptual.png){fig-align="center" width="95%"}
 
-- Hourly interaction rewiring ≈ 34 %
-- Diurnal stratification reduces apparent competition by > 40 % per year
-- Pollinators shift foraging time away from dominant competitors (*Apis*, dominant Diptera)
+<div style="display: flex; gap: 16px; margin-top: 10px;">
+<div class="fragment" style="flex: 1; background: #F8FAFC; border-top: 6px solid #3B0F70; border-radius: 10px; padding: 12px; text-align: center;">
+<div style="font-size: 44px; font-weight: 800; color: #3B0F70; line-height: 1;">0.33 vs 0.20</div>
+<div style="font-size: 19px; margin-top: 8px;">specialisation within an hour, observed vs random</div>
+</div>
+<div class="fragment" style="flex: 1; background: #F8FAFC; border-top: 6px solid #B63679; border-radius: 10px; padding: 12px; text-align: center;">
+<div style="font-size: 44px; font-weight: 800; color: #B63679; line-height: 1;">34 %</div>
+<div style="font-size: 19px; margin-top: 8px;">of interactions rewire from one hour to the next</div>
+</div>
+</div>
 
-This scales Part 2 (three species) to the whole community. Decide whether the harmonogram below reads well at slide size.
+::: notes
+A whole-day network makes everyone look like a generalist. Sliced by hour, species are more specialised: mean hourly Blüthgen d′ 0.33 vs 0.20 in null networks of the same size (p < 0.001); hourly d′ higher than daily d′ for 43 species (paired t = 7.1, p < 0.001).
+Rewiring: 34 % of the change in interactions between consecutive hours is partner switching among species that are active in both hours, not species appearing or disappearing.
 :::
 
-![](images/diu_harmonogram.png){fig-align="center" height="300"}
+## Splitting the day eases competition
+
+<span class="timing">≈ 1 min</span>
+
+<div style="display: flex; gap: 16px; margin-top: 30px;">
+<div style="flex: 1; background: #F8FAFC; border-top: 6px solid #40695B; border-radius: 10px; padding: 16px; text-align: center;">
+<div style="font-size: 60px; font-weight: 800; color: #40695B; line-height: 1;">−42 %</div>
+<div style="font-size: 20px; margin-top: 10px;">potential competition for shared pollinators once timing is taken into account</div>
+<div style="font-size: 16px; color: #64748B; margin-top: 6px;">every year 2011–2025, never less than −34 %</div>
+</div>
+<div class="fragment" style="flex: 1; background: #F8FAFC; border-top: 6px solid #F8765C; border-radius: 10px; padding: 16px; text-align: center;">
+<div style="font-size: 30px; font-weight: 800; color: #F8765C; line-height: 1.2;">A see-saw in time</div>
+<div style="font-size: 20px; margin-top: 10px;">In years with many honeybees, other pollinators forage <b>earlier</b>.<br>When small flies dominate, they forage <b>later</b>.</div>
+</div>
+</div>
+
+::: {.fragment style="margin-top: 30px;"}
+::: bigmsg
+Time of day is a niche axis that hides in whole-day networks.
+:::
+:::
+
+::: notes
+Potential for apparent competition (plants sharing pollinators) from the whole-day network, multiplied by how much two species actually overlap in time, standardised for the midday activity peak. Mean reduction 41.8 % per year (SD 6.1 %, minimum 33.6 %).
+See-saw: shift in mean activity hour of the rest of the community against the yearly relative abundance of the dominant visitors: Apis β = −1.59, p < 0.001 (earlier); dominant small Diptera and Sphaerophoria β > 1.6, p < 0.01 (later).
+Manuscript draft (DiuHanPolNet); numbers may change.
+:::
+
+## Timing decides what pollinators carry
+
+<span class="timing">≈ 1.5 min</span>
+
+::: r-stack
+![](images/diu_body_own.png){.fragment .fade-out fragment-index=1 height="430"}
+
+![](images/diu_body_both.png){.fragment .fade-in-then-out fragment-index=1 height="430"}
+
+![](images/diu_body_share.png){.fragment .fade-in fragment-index=2 height="430"}
+:::
+
+::: r-stack
+::: {.fragment .fade-out fragment-index=1 style="font-size: 22px; text-align: center;"}
+Own pollen on *Succisa* visitors: ≈ 350 grains at 8:30 → ≈ 50 at 14:30
+:::
+
+::: {.fragment .fade-in-then-out fragment-index=1 style="font-size: 22px; text-align: center;"}
+Foreign pollen stays the same all day
+:::
+
+::: {.fragment .fade-in fragment-index=2 style="font-size: 22px; text-align: center;"}
+A morning visitor carries ≈ 50 % own pollen, an afternoon visitor ≈ 7 %
+:::
+:::
+
+::: src
+293 swabbed visitors of *Succisa*, Handrkov 2024 · confirms @stenc2025pollen with new data
+:::
+
+::: notes
+This brings the community result back to pollen. Swabs (same method as before) from insects caught on Succisa through the day in 2024.
+Own pollen ~ hour: quasi-Poisson slope −0.33 per hour, p < 0.001. Foreign pollen ~ hour: slope 0.01, p = 0.88. Share of own pollen ~ hour: quasi-binomial slope −0.44 per hour, p < 0.001.
+Single visits to virgin stigmas (124 visits, 2022–2024) also left the most own pollen at 8:00 (≈ 9 grains vs ≈ 2 later), but the trend is only marginal (p = 0.07).
+Meaning: Succisa's morning release is not a curiosity. Visits in the first hours move most of its own pollen; later visits mostly bring foreign pollen. Next step: hour-by-hour pollen-transfer networks, combining the diurnal network with swabs and stigma loads, to see which pollen moves between which plants and when.
+:::
 
 ## From pollen on the stigma to seeds
 
