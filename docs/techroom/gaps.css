@@ -54,3 +54,19 @@
 }
 .reveal .roadmap > div.on { border-top-color: #40695B; background: #E6F0EC; font-weight: 700; }
 .reveal .roadmap .n { display: block; font-size: 30px; color: #40695B; font-weight: 800; }
+
+/* Person credit card: round photo + name. Placeholder (.ph) until the photo exists. */
+.reveal .person, .reveal .person > p {
+  display: flex; align-items: center; gap: 14px; margin: 0 0 20px 0;
+}
+.reveal .person img, .reveal .person .ph {
+  width: 96px; height: 96px; flex: 0 0 96px; margin: 0;
+  border-radius: 50%; object-fit: cover; border: 3px solid #40695B;
+}
+.reveal .person .ph {
+  display: flex; align-items: center; justify-content: center;
+  border: 3px dashed #F8765C; background: rgba(254, 180, 123, 0.12);
+  color: #F8765C; font-size: 13px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase;
+}
+.reveal .person .who { font-size: 22px; line-height: 1.25; color: #40695B; }
+.reveal .person .who small { font-size: 16px; color: #555555; }

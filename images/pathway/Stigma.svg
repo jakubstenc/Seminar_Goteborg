@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="Stigma.svg"
+   inkscape:export-filename="Stigma.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.52916667"
+     inkscape:cx="536.69291"
+     inkscape:cy="776.69291"
+     inkscape:window-width="3374"
+     inkscape:window-height="1371"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#ac9d93;fill-opacity:1;stroke-width:1.97549"
+       d="m 96.801453,161.48185 c 0.27114,-8.95596 1.976919,-17.75185 2.750359,-26.65407 0.750078,-8.59494 -0.9501,-17.27489 -0.29939,-25.9312 0.12342,-7.76751 -0.41823,-15.4931 0.45784,-23.21186 0.490278,-8.75006 -7.308339,-6.91184 -11.501199,-10.48422 -1.8705,-3.451963 -10.3018,-5.245723 -5.40668,-11.280833 -4.52742,-5.34558 -0.0577,-10.25387 2.00813,-15.11378 4.42651,-3.7016 9.74938,-3.48002 13.568449,-7.87158 4.632148,-2.76211 9.015308,3.19908 12.887418,-0.71577 3.6984,-0.21408 6.85527,1.56249 10.66532,2.32052 3.03643,0.80412 3.89452,7.789 7.76971,6.39513 2.17569,2.2374 5.47508,4.1895 7.77475,5.89468 2.83493,5.7845 -3.09067,10.96731 0.52775,16.98198 -0.89834,4.271123 -5.35212,6.546823 -9.38787,6.741263 -1.5962,1.52429 -8.5317,2.8802 -7.27634,8.72664 -2.13806,10.73177 -0.15372,21.732 -1.71639,32.48558 -0.38676,10.9663 -0.9172,21.82494 -2.00237,32.75357 -0.73156,21.25648 -3.73912,56.32338 -20.819487,8.96395 z"
+       id="path1-6"
+       inkscape:export-filename="path_purple.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       sodipodi:nodetypes="cccccccccccccccccc" />
+  </g>
+</svg>

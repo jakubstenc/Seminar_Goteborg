@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Seminar Göteborg 2026",
+    "section": "About me",
+    "text": "About me\n≈ 1 min\n\n\n\n\n\n2015–2024\n\n\nBSc, MSc and PhD in BotanyCharles University, Prague · with Zdeněk Janovský\n\n\n\n\n2019–2023\n\n\nStays abroadTartu (Erasmus) · Madrid, URJC · Granada\n\n\n\n\n2023–2025\n\n\nPollination in tropical mountainsAndes, Ecuador · with Petr Sklenář\n\n\n\n\n2024–2025\n\n\nInstitute of BotanyCzech Academy of Sciences\n\n\n\n\n2025–2028\n\n\nGAČR postdoc fellowshipCharles University · hosted at CREAF, Barcelona (Jordi Bosch)\n\n\n\n\n\n\nWhat I work on\n\nHow plants share pollinators, and what this means for the pollen that reaches their stigmas\n\n\n\nSweden connection\n\nSCAPE meetings since 2018, including Höör 2019\n\n\n\nKeep this short, about one minute. Botanist by training, working on pollination since the bachelor’s thesis. PhD thesis: factors influencing pollen carryover effectiveness (cum laude, 2024). Current project (GAČR Postdoc Individual Fellowship Outgoing, 25-17193O): long-term spatiotemporal dynamics in a plant–pollinator community and consequences for pollen transfer in a changing world. That project is what this talk is about."
+  },
+  {
     "objectID": "index.html#section-1",
     "href": "index.html#section-1",
     "title": "Seminar Göteborg 2026",
@@ -7,32 +14,46 @@
     "text": "[0:30] Let the meadow speak. Handrkov in August: dozens of plant species in flower at the same time, hundreds of insect species."
   },
   {
+    "objectID": "index.html#what-is-pollination",
+    "href": "index.html#what-is-pollination",
+    "title": "Seminar Göteborg 2026",
+    "section": "What is pollination?",
+    "text": "What is pollination?\n≈ 1 min\n\n\n\n\nPollen is producedin the anthers\n\n\n\n›\n\n\n\n\nAn animal carries itto another flower\n\n\n\n›\n\n\n\n\nIt must land on a stigmaof the same species\n\n\n\n\n→ fertilisation → seeds\n\n\nFor the non-specialists: plants cannot move, so to mate they need a courier. Pollen from one flower has to reach the stigma of another flower of the same species. Pollen landing on the wrong species is lost, and can even block the stigma. The three photos are from our meadow: Succisa anther, a hoverfly (Eristalis interruptus) covered in pollen, a Succisa stigma."
+  },
+  {
+    "objectID": "index.html#why-does-it-matter",
+    "href": "index.html#why-does-it-matter",
+    "title": "Seminar Göteborg 2026",
+    "section": "Why does it matter?",
+    "text": "Why does it matter?\n≈ 1.5 min\n\n\n\n≈ 88 %\n\n\nof flowering plants are pollinated by animals\n\n\nOllerton, Winfree, and Tarrant (2011)\n\n\n\n\n75 %\n\n\nof leading crop types benefit from animal pollination\n\n\nKlein et al. (2007)\n\n\n\n\n5–8 %\n\n\nof global crop production, US$ 235–577 billion per year\n\n\nPotts et al. (2016)\n\n\n\n\n\nPollinators are declining, and most pollination happensin diverse communities where plants share their pollinators.\n\n\n\nOllerton et al. 2011: about 87.5 % of flowering plant species are animal-pollinated (higher in the tropics, about 78 % in temperate communities). Klein et al. 2007: 87 of 115 leading global food crops (75 %) benefit from animal pollination. Potts et al. 2016 (IPBES assessment): 5–8 % of global crop production is directly attributable to animal pollination, worth US$ 235–577 billion per year. Decline: e.g. Hallmann et al. 2017 found a more than 75 % drop in flying insect biomass over 27 years in German protected areas. Bridge: pollination is not one plant and one bee. In a meadow like ours, dozens of plants share the same insects. That is the starting point of our work."
+  },
+  {
     "objectID": "index.html#sharing-is-the-norm",
     "href": "index.html#sharing-is-the-norm",
     "title": "Seminar Göteborg 2026",
     "section": "Sharing is the norm",
-    "text": "Sharing is the norm\n≈ 1.5 min\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIn species-rich meadows most plants are generalists and share most of their visitors. Sharing is a problem for a plant: pollen is lost to other species (consumption, wrong stigmas) and foreign pollen arrives on its own stigma (heterospecific pollen, HP). Central question of the whole talk: how do plants in such a meadow still get enough of their own pollen (conspecific pollen, CP)?"
+    "text": "Sharing is the norm\n≈ 1.5 min\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNot only bees: in our meadow hoverflies, flies, beetles, butterflies and moths all visit flowers (photos: burnet moth on Sanguisorba, Eristalis on Achillea, butterflies on Succisa). In species-rich meadows most plants are generalists and share most of their visitors. Sharing is a problem for a plant: pollen is lost to other species (consumption, wrong stigmas) and foreign pollen arrives on its own stigma (heterospecific pollen, HP). Central question of the whole talk: how do plants in such a meadow still get enough of their own pollen (conspecific pollen, CP)?"
   },
   {
     "objectID": "index.html#the-journey-of-a-pollen-grain",
     "href": "index.html#the-journey-of-a-pollen-grain",
     "title": "Seminar Göteborg 2026",
     "section": "The journey of a pollen grain",
-    "text": "The journey of a pollen grain\n≈ 1 min\n\nRoadmap figure: a simple left-to-right schematic anther → pollinator body → stigma → community network, one icon per stage. Each stage is one part of the talk. Reuse the fly / stigma silhouettes from the LLN graphical abstract (scripts/generate_graphical_abstract_v2.R) so the style stays consistent.\n\n\n\n1The meadow\n\n\n2Pollen presentationanther → pollinator\n\n\n3Pollen depositionpollinator → stigma\n\n\n4The communitysharing network\n\n\n5What’s next\n\n\n\nGuiding idea: plants cannot choose their visitors, but they can control WHEN they offer pollen, and they profit from HOW MANY visits they get and WHERE they grow. Each part shows one of these levers."
+    "text": "The journey of a pollen grain\n≈ 1 min\n\n\n\n\n\n\n1. Anther\n\n\nPresentation & dosing\n\n\nPart 2\n\n\n\n\n\n\n\n\n\n\n\n\n2. Pollinator Body\n\n\nCapacity & shared loads\n\n\nPart 2–3\n\n\n\n\n\n\n\n\n\n\n\n\n3. Stigma\n\n\nDeposition: SVD → TPD\n\n\nPart 3\n\n\n\n\n\n\n\n\n\n\n\n\n4. Community\n\n\nSharing network\n\n\nPart 4–5\n\n\n\n\n\n1The meadow\n\n\n2Pollen presentationanther → pollinator\n\n\n3Pollen depositionpollinator → stigma\n\n\n4The communitysharing network\n\n\n5What’s next\n\n\n\nGuiding idea: plants cannot choose their visitors, but they can control WHEN they offer pollen, and they profit from HOW MANY visits they get and WHERE they grow. Each part shows one of these levers."
   },
   {
     "objectID": "index.html#the-locality",
     "href": "index.html#the-locality",
     "title": "Seminar Göteborg 2026",
     "section": "The locality",
-    "text": "The locality\n≈ 1 min\n\n\n\n\nCzech Republic\n\n\n\n\n\n&gt; 50 entomophilous plant species\n\n\n\n\n15 years of data collection (2011–2025)\n\n\nK Handrkovu near Vernýřov, Central Bohemia (49.8466 N, 15.1498 E). Moist to mesophilous grassland mosaic, two flowering peaks (May, August), mown twice a year. Sampling at the August peak. Founded by Zdeněk Janovský (Janovský et al. 2013)."
+    "text": "The locality\n≈ 1 min\n\n\n\n\nCzech Republic\n\n\n\n\n\n&gt; 50 entomophilous plant species\n\n\n\n\n15 years of data collection (2011–2025)\n\n\nStudy design: Janovský et al. (2013)\n\n\nK Handrkovu near Vernýřov, Central Bohemia (49.8466 N, 15.1498 E). Moist to mesophilous grassland mosaic, two flowering peaks (May, August), mown twice a year. Sampling at the August peak. Where it started: Janovský et al. 2013 (PLoS ONE) set up the plot design and showed that conspecific and heterospecific flower densities at a scale of a few metres drive which pollinators visit a plant. This small-scale density effect comes back twice in this talk: dilution of foreign pollen on Succisa stigmas (Part 3) and the pull of the core species (Part 4)."
   },
   {
     "objectID": "index.html#permanent-plots",
     "href": "index.html#permanent-plots",
     "title": "Seminar Göteborg 2026",
     "section": "Permanent plots",
-    "text": "Permanent plots\n≈ 1 min\n\n\n\n\nplots are marked\n\n\n\n\n\nrecovered every year\n\n\n\n\n\n93 plots in total\n\n\n\n\nCheck plot number and size. The manuscripts disagree: SCAPE talk and LLN paper say 93 plots of 4 × 4 m, HanNullNet README says 96 plots of 4 × 4 m, HanSpaNet says 98 plots of 8 × 8 m with 64 subplots of 1 × 1 m."
+    "text": "Permanent plots\n≈ 1 min\n\n\n\n\nplots are marked\n\n\n\n\n\nrecovered every year\n\n\n\n\n\n93 plots in total"
   },
   {
     "objectID": "index.html#plant-and-pollinator-survey",
@@ -40,13 +61,6 @@
     "title": "Seminar Göteborg 2026",
     "section": "Plant and pollinator survey",
     "text": "Plant and pollinator survey\n≈ 1.5 min\n\n\n\n\nFlowering stalks in 64 cells per plot, twice per season\n\n\n\n\n\n“Snapshot” surveys: insects touching reproductive organs\n\n\n\n\n42 378 plot surveys · 68 460 interactions · 176 pollinator taxa × 55 plant species\n\n\nNumbers from the SCAPE 2026 dataset (2011–2025). Note: the DiuHanPolNet summary reports 58 451 interactions, 53 plants and 174 pollinators (different filtering). Use one consistent set in the talk."
-  },
-  {
-    "objectID": "index.html#from-above",
-    "href": "index.html#from-above",
-    "title": "Seminar Göteborg 2026",
-    "section": "From above",
-    "text": "From above\n≈ 0.5 min\n\n\n\n\n\n\nDrone view: the scale of the meadow and the grid of plots. Short, atmospheric."
   },
   {
     "objectID": "index.html#years-of-networks",
@@ -67,7 +81,14 @@
     "href": "index.html#three-species-three-strategies",
     "title": "Seminar Göteborg 2026",
     "section": "Three species, three strategies",
-    "text": "Three species, three strategies\n≈ 1 min\n\nThree photos side by side, each with one line of text:\n\nSuccisa pratensis: open flowers, accessible pollen, mainly pollen-feeding hoverflies\nCentaurea jacea: pollen pumped out gradually (Asteraceae pump), mainly bees\nTrifolium hybridum: closed flowers, explosive release when opened, bees only\n\nPhotos available: images/Succisa_pratensis.png, images/Centaurea_jaceae.png. A Trifolium hybridum photo is missing."
+    "text": "Three species, three strategies\n≈ 1 min\n\n\n \n\nSuccisa pratensis\n\n\nOpen flowers, pollen freely exposedMainly pollen-feeding hoverflies\n\n\n\n \n\nCentaurea jacea\n\n\nPollen pumped out of the anther tubeMainly bees\n\n\n\n \n\nTrifolium hybridum\n\n\nClosed flowers, pollen released when a bee opens themBees only\n\n\n\n\nPhotos: Lukáš Janošík · Štenc et al. (2023)\n\n\nThree co-flowering species at Handrkov that share part of their pollinators but differ in how pollen is presented. Click: close-ups of pollen presentation. Succisa: anthers fully exposed, pollen easy to take. Centaurea: Asteraceae pump mechanism, the style pushes pollen out of the anther tube gradually. Trifolium: pollen hidden in the keel, released only when a bee forces the flower open. Colours of the species names match the curves on the next slides."
+  },
+  {
+    "objectID": "index.html#how-we-measured-pollen-release",
+    "href": "index.html#how-we-measured-pollen-release",
+    "title": "Seminar Göteborg 2026",
+    "section": "How we measured pollen release",
+    "text": "How we measured pollen release\n≈ 0.5 min\n\n\n\n\n\n\n\n\n\n\nEvery hour, 8:00–17:00, two days\nFlowers offering pollen from 5 inflorescences per species → vial with stained detergent solution\nPollen grains in each vial counted\nFlowers offering pollen counted on 20 inflorescences\n\n\n\n→ pollen available per inflorescence, hour by hour\n\n\n\nPhoto: Lukáš Janošík · Štenc et al. (2023)\n\n\nSTART I methods (Štenc et al. 2023, AJB): 15 and 16 August 2021, hourly sampling, 5 vials per species per hour, each vial = flowers from 5 random inflorescences (3 flowers for Trifolium and Centaurea, 5 for Succisa) in 2 ml of detergent with basic fuchsin. Only flowers actively presenting pollen and visited by pollinators were taken. Pollinator visitation was recorded in parallel, so pollen supply and visits can be compared hour by hour."
   },
   {
     "objectID": "index.html#when-is-pollen-available",
@@ -84,6 +105,13 @@
     "text": "Pollinators track pollen\n≈ 1 min\n\n\n\n\n\n\nThis image is a schematic (no axis values). Replace it with the real visitation-vs-pollen figure of START I (e.g. Tablo2.pdf or kombograf_ultra_mega6.pdf in Psani_clanku/2021/START_paper), or keep it as a concept and say so.\n\n\nKey result of START I: visitation of C. jacea and T. hybridum closely matched pollen availability; S. pratensis pollinators peaked with a slight delay after the morning release."
   },
   {
+    "objectID": "index.html#swabbing-pollinators",
+    "href": "index.html#swabbing-pollinators",
+    "title": "Seminar Göteborg 2026",
+    "section": "Swabbing pollinators",
+    "text": "Swabbing pollinators\n≈ 1 min\n\n\n\n\n\n\n\n\n\n\nCatch the insect on the flower, swab one half of the body\nCube of glycerine jelly with fuchsin picks up the pollen\nMelt the jelly on a slide\nCount every second square, identify 200 grains\n\n\n\nResult per insect: load (grains) and purity (share of own pollen)\n\n\n\nBeattie (1971) · figure from Freudenfeld et al. (2025)\n\n\nSame protocol in START II, in Freudenfeld et al. 2025 and in the deposition paper (body loads on Succisa visitors). Bees: pollen packed in the corbiculae is not swabbed, because it no longer takes part in pollination. Counts therefore refer to one quarter of the body (half the body swabbed, half of the squares counted). Conspecific = pollen of the plant on which the insect was caught. Heterospecific = everything else."
+  },
+  {
     "objectID": "index.html#what-do-pollinators-carry",
     "href": "index.html#what-do-pollinators-carry",
     "title": "Seminar Göteborg 2026",
@@ -98,18 +126,60 @@
     "text": "Pollen must flow\n≈ 1 min\n\n\n\n\n\n\nŠtenc et al. (2025)\n\n\nPollinator performance = visitation activity per flowering stalk × conspecific pollen grains on the body. Succisa is served by hoverflies early in the morning (Eristalis tenax, Helophilus), Centaurea and Trifolium by Apis in the afternoon. The plants split the day: diurnal stratification of pollen transfer lowers the cost of sharing pollinators."
   },
   {
-    "objectID": "index.html#and-between-years",
-    "href": "index.html#and-between-years",
+    "objectID": "index.html#who-carries-the-pollen",
+    "href": "index.html#who-carries-the-pollen",
     "title": "Seminar Göteborg 2026",
-    "section": "And between years?",
-    "text": "And between years?\n≈ 0.5 min\n\nOne slide on Freudenfeld et al. (2025) (AoB Plants): “Interannual differences in pollinator contributions to pollen transfer are mainly driven by changes in pollinator abundance”. Suggested: one key figure plus one sentence. Figure source: ask Martin, or use Psani_clanku/2024/Martin. Optional: cut if time is short.\n\n\nBridge: who carries the pollen changes from year to year, mainly because pollinator abundances change, not because their per-capita behaviour changes. So what arrives on the stigma?"
+    "section": "Who carries the pollen?",
+    "text": "Who carries the pollen?\n≈ 1 min\n\n\n\n\n\n\n\n\n\n\n\n\n\n618 pollinators, 2020–2021, Handrkov · Freudenfeld et al. (2025)\n\n\nBridge from the three focal plants: now the whole pollinator community. Pollen swabbed with fuchsin jelly from one half of the body; counts are per quarter of the body. Step 1: every dot is one insect. Loads range from a few grains to thousands within the same group. Step 2 (click): group means with 95 % CI. Groups do differ (ANOVA F(30, 531) = 21.3, p &lt; 0.001, 54.6 % of variance), bees and large Eristalis carry most, Pieris and Coenonympha least. But most groups overlap broadly: the spread among individuals is as large as the spread among groups. Figure redrawn from raw data (35 groups); the paper’s model used 31 groups."
+  },
+  {
+    "objectID": "index.html#who-visits-changes-every-year",
+    "href": "index.html#who-visits-changes-every-year",
+    "title": "Seminar Göteborg 2026",
+    "section": "Who visits changes every year",
+    "text": "Who visits changes every year\n≈ 1 min\n\n\n\n\n\n\n\n\n\n\n\n\n\n45 472 visits, 2011–2021 · Freudenfeld et al. (2025)\n\n\nStep 1: interaction density of each pollinator group per year (32 groups, grey lines). Step 2 (click): the most abundant groups. Sarcophagidae, Apis and Sphaerophoria jump several-fold between consecutive years. Eristalis tenax is the most constant of the dominant groups."
+  },
+  {
+    "objectID": "index.html#abundance-not-identity",
+    "href": "index.html#abundance-not-identity",
+    "title": "Seminar Göteborg 2026",
+    "section": "Abundance, not identity",
+    "text": "Abundance, not identity\n≈ 0.5 min\n\n\n\n\n\n\nCoefficient of variation = SD / mean, i.e. spread relative to the average\n\n\nData: Freudenfeld et al. (2025)\n\n\n\nPollinators differ little in how much pollen they carry.Their contribution is set by how abundant they are that year.\n\n\n\nCoefficients of variation: among group means of pollen load (0.75), median within-group CV of pollen load among individuals (0.77), median CV of visitation density among years within a group (1.13). Values computed for this slide from the paper’s data (scripts/fig_freudenfeld_2025.R). Conclusion of Freudenfeld et al. 2025: a pollinator’s contribution to pollen transfer depends more on its abundance than on its capacity to carry pollen. A diverse pollinator community buffers the decline of any single taxon. Bridge to Part 3: if many different, variable carriers deliver pollen, what finally arrives on the stigma?"
+  },
+  {
+    "objectID": "index.html#preference-and-constancy",
+    "href": "index.html#preference-and-constancy",
+    "title": "Seminar Göteborg 2026",
+    "section": "Preference and constancy",
+    "text": "Preference and constancy\n≈ 1 min\n\n\n\n\n\n\n\n\nInterview stick: offer two flowers, record which one the insect chooses next\n\n\n\n\n\n\n\n\n\nPreference: which flower is chosen more often than expected\nConstancy: staying on the same species in consecutive visits, more than preference alone predicts\n\n\n\n\nTwo different behaviours that are often mixed up. Preference = choosing one flower type over another. Constancy = repeating the previous choice. A constant pollinator carries purer loads, so constancy matters directly for heterospecific pollen. Interview stick (Thomson 1981): a stick carrying two flowers is offered to a foraging insect; the choice relative to the flower it just left is recorded. Arrays of real or artificial flowers do the same with many flowers at once. The transition matrix shows how often an insect moves from each species to each other species; constancy is the excess on the diagonal."
+  },
+  {
+    "objectID": "index.html#how-do-pollinators-choose",
+    "href": "index.html#how-do-pollinators-choose",
+    "title": "Seminar Göteborg 2026",
+    "section": "How do pollinators choose?",
+    "text": "How do pollinators choose?\n≈ 1 min\n\n\n3D-printed flowers, 3 % sucrose, Eristalis tenax · Matoušková, Štenc, and Janovský (2023); Haveldová et al. (submitted)\n\n\nBridge: the field tells us who visits. To see how an individual pollinator decides, we went to the lab. A: arena with two flower forms in a chessboard pattern, 15 cm apart, so the fly must fly between flowers. B: each flight is scored as constant (same form) or switching. C: four forms, yellow or white, large or small. D: in the field E. tenax visits mostly Succisa. E: in the fly’s colour space, the white form sits next to Succisa, Centaurea and Selinum, the yellow form next to Leontodon. So the artificial flowers mimic real core plants of the meadow. Matoušková et al. 2023 (Biol. J. Linn. Soc.): naive E. tenax select colour most strongly, then size, symmetry only weakly; yellow is preferred, especially when large."
+  },
+  {
+    "objectID": "index.html#experience-changes-the-choice",
+    "href": "index.html#experience-changes-the-choice",
+    "title": "Seminar Göteborg 2026",
+    "section": "Experience changes the choice",
+    "text": "Experience changes the choice\n≈ 1 min\n\n\n\n\n\n\n\n\n\n\nNaive flies (lab-reared): strong innate preference for yellow\n\n\n\n\nExperienced flies (caught in the meadow): no colour preference left\nFlower constancy 10–15 % lower after experience\n\n\n\n\n5 270 visits by naive and 31 973 by experienced flies · Haveldová, Štenc, Matoušková & Janovský (submitted)\n\n\nShare of all visits that went to yellow forms, summed over the four forms (naive: YL 1 829 + YS 1 682 of 4 841 visits; experienced: 8 000 + 7 855 of 31 973). Caveat: visits were not spread evenly across treatments, so this is a summary of the raw counts, not the model. The GLMs show significant colour, size and interaction effects in both groups (Table 1 of the manuscript). Experienced flies from a flower-rich meadow are more opportunistic: weaker preferences and lower constancy. They also reacted more to which flowers they could see from their position (angular area ratio). Implication for the plant: an experienced hoverfly arriving on Succisa has likely just visited something else."
+  },
+  {
+    "objectID": "index.html#who-stays-faithful",
+    "href": "index.html#who-stays-faithful",
+    "title": "Seminar Göteborg 2026",
+    "section": "Who stays faithful?",
+    "text": "Who stays faithful?\n≈ 1 min\n\n\n\n\n\n\n\nHoverflies, the main visitors of Succisa,are among the least constant pollinators.\n\n\n\nLiterature synthesis + our field experiments, 20 sources, experimental data only · Sedláčková, Štenc, Matoušková & Janovský (in prep.)\n\n\nShare of foraging decisions explained by flower constancy, from interview-stick and array experiments (quasibinomial GLM, F = 15.8, p &lt; 0.001). Honeybees and other bees about 0.75–0.80; bumblebees, butterflies and hoverflies 0.22–0.34. Points = individual studies or species pairs. Bridge to Part 3: a meadow served by inconstant hoverflies should load stigmas with foreign pollen. So what actually lands on a Succisa stigma? Manuscript is an early draft; numbers may change."
   },
   {
     "objectID": "index.html#part-2-in-one-sentence",
     "href": "index.html#part-2-in-one-sentence",
     "title": "Seminar Göteborg 2026",
     "section": "Part 2 in one sentence",
-    "text": "Part 2 in one sentence\n≈ 0.5 min\n\n\nPlants cannot choose their pollinators,but they can choose when to offer pollen."
+    "text": "Part 2 in one sentence\n≈ 0.5 min\n\n\nPlants cannot choose their pollinators,but they can choose when to offer pollen.Who carries it, and how faithfully, changes with the year and with experience."
   },
   {
     "objectID": "index.html#from-body-to-stigma",
@@ -119,18 +189,32 @@
     "text": "From body to stigma\n≈ 1 min\n\n\n\n\nPollen on the body\n\n\n\n\n\nPollen on the stigma\n\n\n\n\nDefine terms once: conspecific pollen (CP) = own species; heterospecific pollen (HP) = other species. Single-visit deposition (SVD) = what one visit leaves. Terminal pollen deposition (TPD) = the final load on an old stigma. Focal species from now on: Succisa pratensis, a core species of the meadow network (Part 4)."
   },
   {
+    "objectID": "index.html#defining-the-deposition-steps",
+    "href": "index.html#defining-the-deposition-steps",
+    "title": "Seminar Göteborg 2026",
+    "section": "Defining the deposition steps",
+    "text": "Defining the deposition steps\n≈ 1 min\n\n\n\n1. Pollinator Body Load\n\n\n\n\n\nCP (Conspecific)\n\n\n\n\n\nHP (Heterospecific)\n\n\n\n\nPollen carried by visitor.Can be own species (CP) or foreign (HP).\n\n\n\n\n2. Single Visit (SVD)\n\n\n\n\n\nPollen left by one visit on virgin stigma.Mechanically inefficient & noisy (high CV).\n\n\n\n\n3. Terminal Load (TPD)\n\n\n\n\n\nFinal cumulative load on old stigma.Accumulated visits buffer noise (low CV).\n\n\n\n\nDefine terms explicitly: - CP = Conspecific Pollen (own species) - HP = Heterospecific Pollen (foreign pollen from neighbours) - SVD = Single-Visit Deposition: measured experimentally with virgin bagged stigmas exposed to exactly 1 visit. - TPD = Terminal Pollen Deposition: the final load on naturally pollinated stigmas."
+  },
+  {
+    "objectID": "index.html#how-we-measure-deposition",
+    "href": "index.html#how-we-measure-deposition",
+    "title": "Seminar Göteborg 2026",
+    "section": "How we measure deposition",
+    "text": "How we measure deposition\n≈ 1 min\n\n\n\nSingle visit (SVD)\n\n\n\nBag the inflorescence in tulle before anthers open\nUnbag when stigmas are receptive\nWait for one visit, note the visitor\nCollect the visited stigma into ethanol\n\n\n\n\n\n\nReplace with a photo of a bagged Succisa inflorescence, if you have one.\n\n\n\n\nTerminal load (TPD)\n\n\n\nFlowers with withered corolla = end of stigma life\n3 stigmas per head, 30 plants per day\nClear, stain with safranin, squash\nCount own and foreign grains at 400×\n\n\n\n \n\n\n\n\nSVD: 124 controlled single visits on virgin stigmas, 2022–2024. If the insect visited more than one flower, only the first stigma was kept. TPD: 693 terminal-stage stigmas from 273 plants, 2022–2024. Slide preparation: 10 % KOH, 3 % H2O2, 8 % acetic acid, then safranin–glycerol, squash under a coverslip, seal with nail polish. Micrograph: Succisa stigma with large own pollen grains and smaller foreign grains. Own and foreign grains are told apart by size, shape and surface ornamentation. The Slavkovský les stigmas were processed the same way."
+  },
+  {
     "objectID": "index.html#one-visit-is-a-lottery",
     "href": "index.html#one-visit-is-a-lottery",
     "title": "Seminar Göteborg 2026",
     "section": "One visit is a lottery",
-    "text": "One visit is a lottery\n≈ 1.5 min\n\n\n\n\n\n\nAdd the key numbers from the LLN manuscript (New Phytologist, submitted 2026): drop from body load to SVD, and the result that SVD does not differ among Eristalis, Helophilus and Bombus (Kruskal–Wallis). Check that this figure reads well at slide size.\n\n\nSVD experiments 2022–2024 on bagged Succisa inflorescences. Individual visits are highly variable and mechanically inefficient, and dominant pollinator taxa are functionally equivalent per visit."
+    "text": "One visit is a lottery\n≈ 1.5 min\n\n\n\n\n\n\nOne visit leaves only ≈ 2 % of the body’s own pollen on the stigma · no difference among Eristalis, Helophilus and Bombus\n\n\nSVD experiments 2022–2024 on bagged Succisa inflorescences (124 single visits; 300 pollinators swabbed for body loads). Mean body load: CP 148 grains (SD 394), HP 479 (SD 1 102). Only about 2.3 % of body CP and 0.1 % of body HP end up on the stigma in one visit. Kruskal–Wallis among dominant morphogroups: CP H3 = 1.59, p = 0.66; HP H3 = 5.20, p = 0.16. Per visit, the pollinators are functionally equivalent, which fits the Freudenfeld result: what matters is how many visits, not who makes them."
   },
   {
     "objectID": "index.html#but-the-final-load-is-stable",
     "href": "index.html#but-the-final-load-is-stable",
     "title": "Seminar Göteborg 2026",
     "section": "But the final load is stable",
-    "text": "But the final load is stable\n≈ 1.5 min\n\n\n\n\n\n\n\n\n\n\n\n\n\nCV drops from body → SVD → TPD. Variance partitioning of TPD (years, days, plants, stigmas): temporal components explain negligible CP variance; most variance sits among individual stigmas and plants. [Fill in the exact variance shares from MS_FML.qmd results.]"
+    "text": "But the final load is stable\n≈ 1.5 min\n\n\n\n\n\n\n\n\n\n\n\n\n\nCV of conspecific pollen: body 129 % → single visit 206 % → terminal load 69 %. Heterospecific pollen stays variable: body 264 % → terminal 147 %. Variance partitioning of TPD (693 stigmas, 273 plants, 2022–2024): years and days explain little CP variance; plants 15 %, stigmas 82 %. Within 2024, days were not significant (CP χ² = 1.32, p = 0.52). HP is different: year (χ² = 32.4, p &lt; 0.001) and plant (χ² = 104.7, p &lt; 0.001) both matter."
   },
   {
     "objectID": "index.html#the-law-of-large-numbers",
@@ -140,25 +224,60 @@
     "text": "The law of large numbers\n≈ 1.5 min\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonte Carlo simulation parameterised by empirical SVD and visitation rates: accumulation of many independent, noisy visits is sufficient to reproduce the stable terminal CP loads observed in the field. HP is different: not predicted by the null model, depends on the floral neighbourhood, and is diluted by high conspecific floral density. Štenc et al., submitted to New Phytologist."
   },
   {
-    "objectID": "index.html#does-this-hold-across-a-landscape",
-    "href": "index.html#does-this-hold-across-a-landscape",
+    "objectID": "index.html#from-one-meadow-to-a-landscape",
+    "href": "index.html#from-one-meadow-to-a-landscape",
     "title": "Seminar Göteborg 2026",
-    "section": "Does this hold across a landscape?",
-    "text": "Does this hold across a landscape?\n≈ 1 min\n\nMap of Slavkovský les PLA with the 60 Succisa localities (coordinates in envi_blizny.csv). Plus a photo of a typical locality.\n\n60 localities, 2022–2023, ≈ 3 000 stigmas (n = 2 931 in the trait model)\n3 stigmas per plant, male-phase flowers, one sampling day per locality and year\n20-min pollinator transects, morning and afternoon\nFill in: number of plants sampled per locality (still TODO in the manuscript)\n\nCredit: MSc thesis of Natálie Hanusová (2024), supervised by J. Štenc.\n\n\nHandrkov is a single meadow. The Slavkovský les data test the same idea over a heterogeneous landscape of meadows, wetland margins and forest edges."
+    "section": "From one meadow to a landscape",
+    "text": "From one meadow to a landscape\n≈ 1 min\n\n\n\n\n\n\nSlavkovský les Protected Landscape Area, W Bohemia · land cover ESA WorldCover 2021 · relief AWS Terrain Tiles · boundary © OpenStreetMap\n\n\nHandrkov is one meadow followed for three years. Slavkovský les asks the same question across a landscape: 60 Succisa meadows in a mosaic of forest, pasture, wetland margins and ponds. Each meadow sampled once: 37 in 2022, 23 in 2023. Field work: MSc thesis of Natálie Hanusová (2024), supervised by J. Štenc."
   },
   {
-    "objectID": "index.html#where-does-the-variance-come-from",
-    "href": "index.html#where-does-the-variance-come-from",
+    "objectID": "index.html#same-question-60-meadows",
+    "href": "index.html#same-question-60-meadows",
     "title": "Seminar Göteborg 2026",
-    "section": "Where does the variance come from?",
-    "text": "Where does the variance come from?\n≈ 2 min\n\n\n\n\n\n\n\n\n\n\nCP: mostly the individual plant (≈ 79 %), little locality × year (≈ 13 %)\nHP: locality × year (≈ 43 %) as large as plant (≈ 41 %)\nVisitor composition did not predict CP or HP loads\nHP followed the landscape: flowerhead number, distance to water, marsh area (dbRDA)\n\n\n\n\nFix the figure before use. Its percentage labels sit on the wrong segments: for CP, 8.4 % belongs to stigma and 12.7 % to locality × year (variance_components.csv). For HP, 16 % belongs to stigma.\n\n\nBayesian Poisson hierarchical model, ICCs. CP stays locally buffered, consistent with the law of large numbers across space. HP is a landscape-context problem. HP dbRDA: n_flowerheads F = 21.5, p = 0.001; dist_water F = 7.9, p = 0.008; marsh area F = 5.1, p = 0.023; adj R² = 0.35."
+    "section": "Same question, 60 meadows",
+    "text": "Same question, 60 meadows\n≈ 1 min\n\n\n\nphoto Natálie HanusováMSc thesis 2024 · field work, pollen counts\n\n\n\n60 meadows, one sampling day each\n\n\n1 035 plants · 3 065 stigmas3 stigmas per plant, ≈ 20 plants per meadow\n\n\n4 595 visitors, 81 taxa20-min transects, morning and afternoon\n\n\nLandscape within 50 mmeadow, forest, marsh, water\n\n\n\n\nMeadow means: HP varies 8-fold, CP only 2-fold\n\n\n\nSame protocol as Handrkov: male-phase flowers, three stigmas per plant, conspecific (CP) and heterospecific (HP) grains counted. Plants per meadow: median 20 (range 7–21). Spread of meadow means (10th–90th percentile): CP 2.2×, HP 8.0×; CV 0.33 vs 0.85."
+  },
+  {
+    "objectID": "index.html#buffered-in-time-and-in-space",
+    "href": "index.html#buffered-in-time-and-in-space",
+    "title": "Seminar Göteborg 2026",
+    "section": "Buffered in time and in space",
+    "text": "Buffered in time and in space\n≈ 2 min\n\n\n\n\n\n\nOwn pollen: little variance between years (3 %) or meadows (11 %). Foreign pollen: about a third (34 % and 30 %).\n\n\nThe same model on both datasets: linear mixed model on sqrt counts, plant nested in year (Handrkov) or in meadow (Slavkovský les), stigma = residual. CP: the big share is plant and stigma, i.e. local and chance. Neither years nor meadows matter much. That is what the law of large numbers predicts. HP: about a third sits at the year or meadow level. Foreign pollen depends on context. The Bayesian Poisson model in the manuscript gives the same picture (CP meadow 13 %, HP 43 %)."
+  },
+  {
+    "objectID": "index.html#foreign-pollen-follows-the-neighbours",
+    "href": "index.html#foreign-pollen-follows-the-neighbours",
+    "title": "Seminar Göteborg 2026",
+    "section": "Foreign pollen follows the neighbours",
+    "text": "Foreign pollen follows the neighbours\n≈ 1.5 min\n\n\n\n\n\n\n\nMore Succisa flowerheads → less HP (dilution, as at Handrkov)\nWetter surroundings (marsh, close to water) → more HP\nLandscape explains 35 % of HP between meadows, only 12 % of CP\nVisitor composition explains neither\n\n\n\nMeadow-level RDA on mean HP: flowerheads F = 21.5, p = 0.001; distance to water F = 7.9, p = 0.008; marsh area F = 5.1, p = 0.023; adj. R² = 0.35. CP: only meadow area (positive), adj. R² = 0.12. Dilution: Spearman ρ = −0.50 between flowerhead number and HP. Large Succisa populations keep visitors on Succisa. Visitor community (dbRDA, n = 58 meadows): CP adj. R² 0.007, p = 0.38; HP 0.022, p = 0.30."
   },
   {
     "objectID": "index.html#taller-plants-get-more-pollen",
     "href": "index.html#taller-plants-get-more-pollen",
     "title": "Seminar Göteborg 2026",
     "section": "Taller plants get more pollen",
-    "text": "Taller plants get more pollen\n≈ 1.5 min\n\nNew figure needed: rate ratio plot (forest plot) of within-locality effects of stem height and flowerhead diameter on CP and HP. Data in outputs/tables/plant_trait_effects.csv. Photo idea: a tall Succisa above the grass.\n\n\n\n\n\n\n\n\n\nWithin-locality effect (per 1 SD)\nCP\nHP\n\n\n\n\nStem height\nRR 1.11 (1.04–1.19), p = 0.003\n1.02, n.s.\n\n\nFlowerhead diameter\n1.07 (1.00–1.14), p = 0.05\nRR 1.10 (1.01–1.19), p = 0.02\n\n\n\n\nWithin a locality, plants taller than their neighbours receive about 11 % more conspecific pollen per SD of height. Height does not affect HP. Larger flowerheads collect slightly more HP. But: traits explain almost none of the plant-level variance (ICC 0.793 → 0.794). Height shifts the mean; most plant-to-plant variation remains position, microhabitat or chance."
+    "text": "Taller plants get more pollen\n≈ 1 min\n\n\n\n\n\n\nBut traits leave plant-to-plant variance unchanged (ICC 0.793 → 0.794)\n\n\nOptional: photo of a tall Succisa above the grass.\n\n\nWithin a meadow, plants taller than their neighbours get about 11 % more conspecific pollen per SD of height (RR 1.11, 1.04–1.19). Height does not affect HP. Larger flowerheads collect slightly more HP (RR 1.10). Height shifts the mean. Most plant-to-plant variation remains position, microhabitat or chance."
+  },
+  {
+    "objectID": "index.html#is-taller-better",
+    "href": "index.html#is-taller-better",
+    "title": "Seminar Göteborg 2026",
+    "section": "Is taller better?",
+    "text": "Is taller better?\n≈ 1 min\n\n\n\nphoto Klára Hodánkovárole / affiliation\n\n\nphoto Javier Valverderole / affiliation\n\n\n\nField work 2026\n\n\n\n\n\nTaller flowers stick out of the grass and receive more own pollen (Slavkovský les). But does more pollen also mean better pollen?\n\n\n\n\nFill in species, site and sampling date (the data files do not say; I assumed Succisa pratensis), roles and affiliations. Add the two photos when you have them.\n\n\nIntroduce the people first: this was the 2026 field season with Klára Hodánková and Javier Valverde. Starting point: Slavkovský les showed that within a meadow, taller plants receive more own pollen. Height makes a flower more visible and easier to reach for flying insects. The new question: is all that extra pollen equally useful?"
+  },
+  {
+    "objectID": "index.html#from-pollen-grain-to-pollen-tube",
+    "href": "index.html#from-pollen-grain-to-pollen-tube",
+    "title": "Seminar Göteborg 2026",
+    "section": "From pollen grain to pollen tube",
+    "text": "From pollen grain to pollen tube\n≈ 1 min\n\n\n\n\n\n\n\n\n\nPollen lands on the stigma\n\n\n\n\nA compatible grain germinates: a tube grows down the style to the ovule\nOnly grains with a tube can fertilise\n\n\n\nWhat we measured Height of every flowering stalk (194 stalks, 100 plants) Pollen grains and pollen tubes on 61 stigmas from 32 plants\n\n\n\nAdd how stigmas were stained for tubes (e.g. aniline blue under fluorescence) and when they were collected.\n\n\nPollen tubes are the step between deposition and fertilisation. Counting tubes per stigma tells us how much of the deposited pollen actually germinated. Two stigmas (flowers A and B) per plant; random effects for plant and flower in all models."
+  },
+  {
+    "objectID": "index.html#height-pollen-and-pollen-tubes",
+    "href": "index.html#height-pollen-and-pollen-tubes",
+    "title": "Seminar Göteborg 2026",
+    "section": "Height, pollen and pollen tubes",
+    "text": "Height, pollen and pollen tubes\n≈ 2 min\n\n\n\n\n\n\n\n\nMost plants are 25–40 cm tall · only 3 % of stalks exceed 50 cm\n\n\nPollen per stigma rises with height and levels off at ≈ 50 cm · grey bars = plant heights in the meadow\n\n\nPollen tubes follow a flatter curve, peaking at ≈ 45 cm\n\n\nThe share of grains with a tube falls: ≈ 45 % at 15 cm → ≈ 24 % at 65 cm\n\n\n\n2026 · with Klára Hodánková and Javier Valverde · unpublished\n\n\nStep 1: context. Height of 194 flowering stalks on 100 plants, median 32 cm; about 60 % are 25–40 cm, only 3 % above 50 cm. So most plants sit on the rising part of the next curve. Step 2: own pollen per stigma ~ quadratic height, negative binomial GLMM with plant/flower random effects: linear z = 4.2, p &lt; 0.001; quadratic z = −3.6, p &lt; 0.001; predicted peak at about 50 cm. The tall end rests on few plants. Step 3: number of pollen tubes ~ quadratic height (Poisson GLMM): linear p = 0.32, quadratic p = 0.014, peak at about 45 cm. No confidence band shown for this curve; the model’s interval is not informative. Step 4: proportion of grains with a tube ~ height (binomial GLMM): β = −0.019 per cm, p = 0.041. Take-home: taller plants get more pollen, but a smaller share of it germinates. Possible reasons: more self or related pollen from long visits on tall plants, competition among grains, or older stigmas. One season, one site: a lead to follow, not a result."
   },
   {
     "objectID": "index.html#pollen-deposition-through-a-flowers-life",
@@ -168,11 +287,11 @@
     "text": "Pollen deposition through a flower’s life\n≈ 2 min\n\n\n\n\n\n\n\n\n\n\n\n\n\nRedraw the GAMM figure: the confidence bands are broken and “Unknown” / “SC” add noise. Show SI vs SIC only. Literature synthesis: 36 species, 23 families, 49 surveys, 194 time-stamped records.\n\n\nMeta-analysis of published deposition time series (Štenc, in prep.). Mating system best predicts the curve shape (deviance explained 56.8 %). Self-incompatible species accumulate pollen over a broader part of flower life (median AUC 0.72 vs 0.14 in SIC; p_adj = 0.024) but rarely reach P/O ≥ 1 (1 of 7 surveys). Long accumulation without saturation: a sign of chronic pollen limitation in obligate outcrossers. Bridge back to Succisa: protandrous, long-lived stigmas, hence the value of many visits."
   },
   {
-    "objectID": "index.html#part-3-in-one-sentence",
-    "href": "index.html#part-3-in-one-sentence",
+    "objectID": "index.html#how-it-fits-together",
+    "href": "index.html#how-it-fits-together",
     "title": "Seminar Göteborg 2026",
-    "section": "Part 3 in one sentence",
-    "text": "Part 3 in one sentence\n≈ 0.5 min\n\n\nMany noisy visits add up to a reliable dose of own pollen.Foreign pollen depends on the neighbours.\n\n\n\nSynthesis of Parts 2 and 3: TIME (presentation schedule), NUMBERS (law of large numbers), SPACE (plant height, landscape context for HP). All three depend on who else is in the community. That leads to the network."
+    "section": "How it fits together",
+    "text": "How it fits together\n≈ 1 min\n\n\n\nAnther\n\n\nTime\n\n\nPollen release schedules split the day among co-flowering plants\n\n\n\n›\n\n\n\nPollinator\n\n\nWho & how\n\n\nAbundance sets who carries pollen; experience lowers constancy\n\n\n\n›\n\n\n\nStigma\n\n\nNumbers\n\n\nMany noisy visits give a stable dose of own pollen\n\n\n\n›\n\n\n\nNeighbourhood\n\n\nSpace\n\n\nForeign pollen follows the neighbours and the landscape\n\n\n\n\n\nOwn pollen is secured by many visits.Foreign pollen is decided by the community.\n\n\n\nOne sentence per step, each backed by one study from Parts 2 and 3. The last step is the bridge: if foreign pollen depends on the neighbours, we need to understand the whole community of neighbours. That is the pollinator-sharing network."
   },
   {
     "objectID": "index.html#plants-linked-by-shared-pollinators",
@@ -182,6 +301,13 @@
     "text": "Plants linked by shared pollinators\n≈ 1 min\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrom the bipartite plant-pollinator web to the plant-plant pollinator-sharing network. Every shared visitor is a potential route for HP. Shortened version of the SCAPE 2026 story. If time allows, reuse the airport analogy slide from SCAPE."
   },
   {
+    "objectID": "index.html#what-is-the-core",
+    "href": "index.html#what-is-the-core",
+    "title": "Seminar Göteborg 2026",
+    "section": "What is the core?",
+    "text": "What is the core?\n≈ 1 min\n\n\n\nPhoto: Colin, Wikimedia Commons, CC BY-SA 3.0\n\n\n\n\n\n\nAll plants\n\n\n\n\n\n\nPeel weakly linked plants\n\n\n\n\n\n\nWhat remains = core\n\n\n\n\n\nk-core decomposition (Seidman 1983), done separately for each year. Think of an onion: remove plants with few sharing links, repeat until only a mutually connected centre remains. A species counts as core if it is central more often than expected from its flower abundance (null model, 1 000 permutations per year)."
+  },
+  {
     "objectID": "index.html#a-stable-core",
     "href": "index.html#a-stable-core",
     "title": "Seminar Göteborg 2026",
@@ -189,11 +315,25 @@
     "text": "A stable core\n≈ 1.5 min\n\n\n\n\n\n\nk-core decomposition per year, null model of 1 000 permutations per year. Six species are central in the sharing network across 15 years: Centaurea jacea, Selinum carvifolia, Succisa pratensis, Pimpinella saxifraga, Achillea ptarmica, Ranunculus acris. Plant identity explains 38 % of centrality variance beyond floral abundance (44 %). Note that the two best-studied species of Parts 2 and 3, Succisa and Centaurea, are both core species."
   },
   {
+    "objectID": "index.html#recurring-summer-drought",
+    "href": "index.html#recurring-summer-drought",
+    "title": "Seminar Göteborg 2026",
+    "section": "Recurring summer drought",
+    "text": "Recurring summer drought\n≈ 0.5 min\n\n\n\n\n\n\nData: TerraClimate (Abatzoglou et al. 2018), Handrkov locality (2011–2025)\n\n\nRecurring summer drought in 2011–2025. Only 2013 and 2021 were wet summers; 2018 was the driest, followed by 2015, 2019 and 2025."
+  },
+  {
     "objectID": "index.html#drought-concentrates-visits-on-the-core",
     "href": "index.html#drought-concentrates-visits-on-the-core",
     "title": "Seminar Göteborg 2026",
     "section": "Drought concentrates visits on the core",
-    "text": "Drought concentrates visits on the core\n≈ 2 min\n\n\n\n\n\n\n\n\n\n\n\n\n\nRecurring summer drought in 2011–2025. The core holds about 14 % of flowers but receives 67 % of visits on average, rising from 34–55 % (2011–14) to 84–88 % (2023–25). In dry years peripheral flowering drops about threefold, core flowering does not."
+    "text": "Drought concentrates visits on the core\n≈ 1.5 min\n\n\n\n\n\n\n\n\n\n\n\n\n\nStep 1: share of all visits going to the 6 core species, rising from 34–55 % (2011–14) to 84–88 % (2023–25). Step 2 (click): share of flowers produced by the core. On average the core holds about 14 % of flowers but receives 67 % of visits. In dry years peripheral flowering drops about threefold, core flowering does not."
+  },
+  {
+    "objectID": "index.html#how-robust-is-the-network",
+    "href": "index.html#how-robust-is-the-network",
+    "title": "Seminar Göteborg 2026",
+    "section": "How robust is the network?",
+    "text": "How robust is the network?\n≈ 1 min\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCo-extinction simulation following Memmott, Waser, and Price (2004)\n\n\nRemove plants one by one and count how many pollinators lose all their food plants. Robustness R = area under the curve: 1 = nothing is lost, 0 = immediate collapse. Click 1: removing peripheral plants first, the curve stays high (R ≈ 0.85). Click 2: removing core plants first, pollinators are lost quickly (R ≈ 0.45). Next slide: how this changes across 15 years."
   },
   {
     "objectID": "index.html#a-more-fragile-network",
@@ -214,7 +354,7 @@
     "href": "index.html#the-price-of-being-in-the-core",
     "title": "Seminar Göteborg 2026",
     "section": "The price of being in the core",
-    "text": "The price of being in the core\n≈ 1 min\n\nProject “Apparent competition bottleneck” (pitch stage). Hypothesis: when drought crowds pollinators onto the core, core plants share nearly every insect. This should increase heterospecific pollen deposition on core stigmas and may be a hidden cost that prevents competitive exclusion.\nSuggested visual: pollinator-sharing network in a wet year (2012) vs a dry year (2015), side by side, plus the question “more HP on Succisa in dry years?”. Link to SucTemDep: Succisa stigma loads 2022–2024 at Handrkov as a first test."
+    "text": "The price of being in the core\n≈ 1.5 min\n\n\n\n\n\n\n\n\n\nHypothesis: when drought crowds pollinators onto the core, core plants share almost every insect and receive more foreign pollen.\n\n\nFirst hint on Succisa stigmas: own pollen stable, foreign pollen highest in dry 2023, lowest in 2024 when Succisa flowered densely.\n\n\n\nThree years cannot separate drought from Succisa density. Say so, and present this as the motivation for continued stigma sampling (SucTemDep) and the apparent-competition project.\n\n\nMean grains per terminal-stage stigma (± SE): CP 20.5, 20.5, 27.4; HP 35.2, 50.4, 9.6 for 2022, 2023, 2024 (84, 89 and 520 stigmas). Summer drought index: 2022 mild, 2023 dry, 2024 moderate. In 2024 Succisa flowered much more densely, and the Monte Carlo model shows HP dropping towards the mechanical baseline. So density dilution is the better-supported explanation; drought is a hypothesis to test. Apparent competition bottleneck project (pitch stage): core species sharing most visits may pay a cost in foreign pollen, which could be one reason they do not exclude the periphery."
   },
   {
     "objectID": "index.html#time-of-day-as-a-niche-axis",
@@ -224,11 +364,11 @@
     "text": "Time of day as a niche axis\n≈ 1 min\n\nProject DiuHanPolNet (manuscript draft). Diurnal stratification structures the network: “global generalists, local specialists”.\n\nHourly interaction rewiring ≈ 34 %\nDiurnal stratification reduces apparent competition by &gt; 40 % per year\nPollinators shift foraging time away from dominant competitors (Apis, dominant Diptera)\n\nThis scales Part 2 (three species) to the whole community. Decide whether the harmonogram below reads well at slide size."
   },
   {
-    "objectID": "index.html#space-as-a-niche-axis",
-    "href": "index.html#space-as-a-niche-axis",
+    "objectID": "index.html#from-pollen-on-the-stigma-to-seeds",
+    "href": "index.html#from-pollen-on-the-stigma-to-seeds",
     "title": "Seminar Göteborg 2026",
-    "section": "Space as a niche axis",
-    "text": "Space as a niche axis\n≈ 1 min\n\nProject HanSpaNet. Fine-scale spatial clumping of plants: aggregated species “steal” visits from dominant foragers, dispersed neighbours lose. This scales the Slavkovský les and plant height results to the community. Decide whether to show the graphical abstract below or one result plot."
+    "section": "From pollen on the stigma to seeds",
+    "text": "From pollen on the stigma to seeds\n≈ 1 min\n\n\n\nPollen deposited\n\n\nwhat we measure now\n\n\n\n›\n\n\n\nPollen tubes\n\n\nfirst data in 2026\n\n\n\n›\n\n\n\nSeeds\n\n\nnext step\n\n\n\n\n\nDoes a stable dose of own pollen mean stable seed set?\nDoes foreign pollen reduce tube growth, especially in dry years?\nIs quality, not quantity, the limit for tall, well-visited plants?\n\n\n\n\nDo you have data on stigma pollen loads, pollen tubes or seed set?We would love to combine them.\n\n\n\nFuture direction: follow pollen one step further, from deposition to germination and seeds. Planned: pollen tubes and seed set on Succisa across years at Handrkov, linked to the yearly foreign-pollen loads and drought. Call for data: datasets with stigma loads plus pollen tubes or seed set, from any species, would let us test whether the law-of-large-numbers buffering of deposition carries through to fertilisation. We are also collecting published time series of pollen deposition (the deposition-curve synthesis)."
   },
   {
     "objectID": "index.html#the-next-dry-summers",
@@ -280,18 +420,18 @@
     "text": "Backup: Succisa abundance in space and time"
   },
   {
-    "objectID": "index.html#backup-slavkovský-les-cv",
-    "href": "index.html#backup-slavkovský-les-cv",
+    "objectID": "index.html#backup-slavkovský-les-landscape-drivers-rda",
+    "href": "index.html#backup-slavkovský-les-landscape-drivers-rda",
     "title": "Seminar Göteborg 2026",
-    "section": "Backup: Slavkovský les CV",
-    "text": "Backup: Slavkovský les CV"
+    "section": "Backup: Slavkovský les landscape drivers (RDA)",
+    "text": "Backup: Slavkovský les landscape drivers (RDA)\n\n\n\n\n\n\nMeadow-level RDA with forward selection. HP: flowerheads, distance to water, marsh area (adj. R² 0.35). CP: meadow area (adj. R² 0.12)."
   },
   {
-    "objectID": "index.html#backup-visitors-vs-pollen-loads-dbrda",
-    "href": "index.html#backup-visitors-vs-pollen-loads-dbrda",
+    "objectID": "index.html#backup-visitor-identity-does-not-predict-pollen-loads",
+    "href": "index.html#backup-visitor-identity-does-not-predict-pollen-loads",
     "title": "Seminar Göteborg 2026",
-    "section": "Backup: visitors vs pollen loads (dbRDA)",
-    "text": "Backup: visitors vs pollen loads (dbRDA)"
+    "section": "Backup: visitor identity does not predict pollen loads",
+    "text": "Backup: visitor identity does not predict pollen loads\n\n\n\n\n\n\ndbRDA of visitor community composition (n = 58 meadows): CP adj. R² 0.007, p = 0.38; HP adj. R² 0.022, p = 0.30."
   },
   {
     "objectID": "index.html#backup-deposition-curves-by-life-form",
@@ -308,10 +448,52 @@
     "text": "Backup: pollen on stigma and pollinator"
   },
   {
+    "objectID": "index.html#backup-from-above",
+    "href": "index.html#backup-from-above",
+    "title": "Seminar Göteborg 2026",
+    "section": "Backup: from above",
+    "text": "Backup: from above\n\n\n\n\n\n\nDrone view: the scale of the meadow and the grid of plots. Short, atmospheric."
+  },
+  {
+    "objectID": "index.html#backup-does-more-pollen-mean-more-seeds",
+    "href": "index.html#backup-does-more-pollen-mean-more-seeds",
+    "title": "Seminar Göteborg 2026",
+    "section": "Backup: does more pollen mean more seeds?",
+    "text": "Backup: does more pollen mean more seeds?\n\nExpected question. No seed set data yet; the closest is the 2026 pollen-tube data (see the height slide). Prepare a spoken answer: Succisa has one ovule per flower, so a terminal load of ≈ 20–27 conspecific grains is far above the minimum; the open question is whether foreign pollen (up to ≈ 50 grains in 2023) clogs stigmas enough to reduce seed set. If you have any seed set or pollen-tube data, put one figure here."
+  },
+  {
+    "objectID": "index.html#backup-pollen-production-per-inflorescence",
+    "href": "index.html#backup-pollen-production-per-inflorescence",
+    "title": "Seminar Göteborg 2026",
+    "section": "Backup: pollen production per inflorescence",
+    "text": "Backup: pollen production per inflorescence\n\n\n\n\n\n\nSTART I data: Succisa produces roughly an order of magnitude less pollen per inflorescence than Centaurea or Trifolium (≈ 0.4 × 10⁵ vs 2.6–3.5 × 10⁵), and releases it all in the morning."
+  },
+  {
+    "objectID": "index.html#backup-sampling-effort-per-year",
+    "href": "index.html#backup-sampling-effort-per-year",
+    "title": "Seminar Göteborg 2026",
+    "section": "Backup: sampling effort per year",
+    "text": "Backup: sampling effort per year\n\n\n\n\n\n\nAverage number of censuses per plot and year, 2011–2021 (Freudenfeld et al. 2025). Effort varied, so all visitation data are standardised per survey."
+  },
+  {
+    "objectID": "index.html#backup-eristalis-constancy-by-flower-pair",
+    "href": "index.html#backup-eristalis-constancy-by-flower-pair",
+    "title": "Seminar Göteborg 2026",
+    "section": "Backup: Eristalis constancy by flower pair",
+    "text": "Backup: Eristalis constancy by flower pair\n\n\n\n\n\n\nHaveldová et al. (submitted): constant flights by naive (left) and experienced (right) E. tenax for each pair of flower forms. Dark = minimum, light = maximum estimate depending on the fly’s position (angular area ratio)."
+  },
+  {
+    "objectID": "index.html#backup-space-as-a-niche-axis",
+    "href": "index.html#backup-space-as-a-niche-axis",
+    "title": "Seminar Göteborg 2026",
+    "section": "Backup: space as a niche axis",
+    "text": "Backup: space as a niche axis\n\nProject HanSpaNet. Fine-scale spatial clumping of plants: aggregated species “steal” visits from dominant foragers, dispersed neighbours lose. This scales the Slavkovský les and plant height results to the community. Decide whether to show the graphical abstract below or one result plot."
+  },
+  {
     "objectID": "index.html#references",
     "href": "index.html#references",
     "title": "Seminar Göteborg 2026",
     "section": "References",
-    "text": "References\n\n\nFreudenfeld, Martin, Jakub Štenc, Jiří Hadrava, Michael Mikát, Eva Matoušková, Klára Daňková, Tomáš Jor, et al. 2025. “Interannual Differences in Pollinator Contributions to Pollen Transfer Are Mainly Driven by Changes in Pollinator Abundance.” AoB Plants 17 (2): plaf009.\n\n\nHarder, L. D., and J. D. Thomson. 1989. “Evolutionary Options for Maximizing Pollen Dispersal of Animal- Pollinated Plants.” American Naturalist 133 (3): 323344. https://doi.org/10.1086/284922.\n\n\nJanovský, Zdeněk, Michael Mikát, Jiří Hadrava, Eva Horčičková, Kateřina Kmecová, Doubravka Požárová, Jan Smyčka, and Tomáš Herben. 2013. “Conspecific and Heterospecific Plant Densities at Small-Scale Can Drive Plant-Pollinator Interactions.” PLoS ONE 8: 77361. https://doi.org/10.1371/journal.pone.0077361.\n\n\nMemmott, Jane, Nickolas M. Waser, and Mary V. Price. 2004. “Tolerance of Pollination Networks to Species Extinctions.” Proceedings of the Royal Society B: Biological Sciences 271: 2605–11. https://doi.org/10.1098/rspb.2004.2909.\n\n\nŠtenc, Jakub, Lukáš Janošík, Eva Matoušková, Jiří Hadrava, Michael Mikát, and Zdeněk Janovský. 2023. “Pollinator Visitation Closely Tracks Diurnal Patterns in Pollen Release.” American Journal of Botany, e16179. https://doi.org/10.1002/AJB2.16179.\n\n\nŠtenc, Jakub, Lukáš Janošı́k, Martin Freudenfeld, Eva Matoušková, Jiřı́ Hadrava, Michael Mikát, Klára Daňková, et al. 2025. “Pollen Presentation Mitigates Competition for Pollinators Due to Diurnal Stratification of Pollen Transfer.” Perspectives in Plant Ecology, Evolution and Systematics 67: 125868."
+    "text": "References\n\n\nBeattie, AJ. 1971. “A Technique for the Study of Insect-Borne Pollen.” The Pan-Pacific Entomologist 47 (1): 82.\n\n\nFreudenfeld, Martin, Jakub Štenc, Jiří Hadrava, Michael Mikát, Eva Matoušková, Klára Daňková, Tomáš Jor, et al. 2025. “Interannual Differences in Pollinator Contributions to Pollen Transfer Are Mainly Driven by Changes in Pollinator Abundance.” AoB Plants 17 (2): plaf009.\n\n\nHarder, L. D., and J. D. Thomson. 1989. “Evolutionary Options for Maximizing Pollen Dispersal of Animal- Pollinated Plants.” American Naturalist 133 (3): 323344. https://doi.org/10.1086/284922.\n\n\nJanovský, Zdeněk, Michael Mikát, Jiří Hadrava, Eva Horčičková, Kateřina Kmecová, Doubravka Požárová, Jan Smyčka, and Tomáš Herben. 2013. “Conspecific and Heterospecific Plant Densities at Small-Scale Can Drive Plant-Pollinator Interactions.” PLoS ONE 8: 77361. https://doi.org/10.1371/journal.pone.0077361.\n\n\nKlein, Alexandra-Maria, Bernard E. Vaissière, James H. Cane, Ingolf Steffan-Dewenter, Saul A. Cunningham, Claire Kremen, and Teja Tscharntke. 2007. “Importance of Pollinators in Changing Landscapes for World Crops.” Proceedings of the Royal Society B 274 (1608): 303–13. https://doi.org/10.1098/rspb.2006.3721.\n\n\nMatoušková, Eva, Jakub Štenc, and Zdeněk Janovský. 2023. “Innate Preferences of Eristalis Tenax l. (Syrphidae) for Flower Colour, Size and Symmetry Are More Intricate Than the Simple Additive Model.” Biological Journal of the Linnean Society, July, 1–10. https://doi.org/10.1093/BIOLINNEAN/BLAD035.\n\n\nMemmott, Jane, Nickolas M. Waser, and Mary V. Price. 2004. “Tolerance of Pollination Networks to Species Extinctions.” Proceedings of the Royal Society B: Biological Sciences 271: 2605–11. https://doi.org/10.1098/rspb.2004.2909.\n\n\nOllerton, Jeff, Rachael Winfree, and Sam Tarrant. 2011. “How Many Flowering Plants Are Pollinated by Animals?” Oikos 120 (3): 321–26. https://doi.org/10.1111/j.1600-0706.2010.18644.x.\n\n\nPotts, Simon G., Vera Imperatriz-Fonseca, Hien T. Ngo, Marcelo A. Aizen, Jacobus C. Biesmeijer, Thomas D. Breeze, Lynn V. Dicks, et al. 2016. “Safeguarding Pollinators and Their Values to Human Well-Being.” Nature 540 (7632): 220–29. https://doi.org/10.1038/nature20588.\n\n\nŠtenc, Jakub, Lukáš Janošík, Eva Matoušková, Jiří Hadrava, Michael Mikát, and Zdeněk Janovský. 2023. “Pollinator Visitation Closely Tracks Diurnal Patterns in Pollen Release.” American Journal of Botany, e16179. https://doi.org/10.1002/AJB2.16179.\n\n\nŠtenc, Jakub, Lukáš Janošı́k, Martin Freudenfeld, Eva Matoušková, Jiřı́ Hadrava, Michael Mikát, Klára Daňková, et al. 2025. “Pollen Presentation Mitigates Competition for Pollinators Due to Diurnal Stratification of Pollen Transfer.” Perspectives in Plant Ecology, Evolution and Systematics 67: 125868."
   }
 ]
