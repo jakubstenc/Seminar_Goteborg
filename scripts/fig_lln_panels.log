@@ -1,0 +1,298 @@
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘nlme’
+
+The following object is masked from ‘package:dplyr’:
+
+    collapse
+
+Loading required package: Matrix
+
+Attaching package: ‘Matrix’
+
+The following objects are masked from ‘package:tidyr’:
+
+    expand, pack, unpack
+
+
+Attaching package: ‘lme4’
+
+The following object is masked from ‘package:nlme’:
+
+    lmList
+
+Linking to ImageMagick 6.9.12.98
+Enabled features: fontconfig, freetype, fftw, heic, lcms, pango, raw, webp, x11
+Disabled features: cairo, ghostscript, rsvg
+Using 14 threads
+Linking to GEOS 3.12.2, GDAL 3.11.4, PROJ 9.4.1; sf_use_s2() is TRUE
+Registered S3 method overwritten by 'car':
+  method           from
+  na.action.merMod lme4
+
+Attaching package: ‘ggpubr’
+
+The following object is masked from ‘package:cowplot’:
+
+    get_legend
+
+Welcome to emmeans.
+Caution: You lose important information if you filter this package's results.
+See '? untidy'
+
+Attaching package: ‘patchwork’
+
+The following object is masked from ‘package:cowplot’:
+
+    align_plots
+
+Loading required package: permute
+
+Attaching package: ‘gt’
+
+The following object is masked from ‘package:cowplot’:
+
+    as_gtable
+
+
+Attaching package: ‘gridExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    combine
+
+
+Attaching package: ‘lmerTest’
+
+The following object is masked from ‘package:lme4’:
+
+    lmer
+
+The following object is masked from ‘package:stats’:
+
+    step
+
+
+Attaching package: ‘igraph’
+
+The following object is masked from ‘package:vegan’:
+
+    diversity
+
+The following object is masked from ‘package:permute’:
+
+    permute
+
+The following object is masked from ‘package:tidyr’:
+
+    crossing
+
+The following objects are masked from ‘package:dplyr’:
+
+    as_data_frame, groups, union
+
+The following objects are masked from ‘package:stats’:
+
+    decompose, spectrum
+
+The following object is masked from ‘package:base’:
+
+    union
+
+Loading required package: testthat
+
+Attaching package: ‘testthat’
+
+The following object is masked from ‘package:igraph’:
+
+    compare
+
+The following object is masked from ‘package:gt’:
+
+    matches
+
+The following object is masked from ‘package:tidyr’:
+
+    matches
+
+The following object is masked from ‘package:dplyr’:
+
+    matches
+
+Loading required package: sna
+Loading required package: statnet.common
+
+Attaching package: ‘statnet.common’
+
+The following objects are masked from ‘package:base’:
+
+    attr, order, replace
+
+Loading required package: network
+
+‘network’ 1.20.0 (2026-02-06), part of the Statnet Project
+* ‘news(package="network")’ for changes since last version
+* ‘citation("network")’ for citation information
+* ‘https://statnet.org’ for help, support, and other information
+
+
+Attaching package: ‘network’
+
+The following objects are masked from ‘package:igraph’:
+
+    %c%, %s%, add.edges, add.vertices, delete.edges, delete.vertices,
+    get.edge.attribute, get.edges, get.vertex.attribute, is.bipartite,
+    is.directed, list.edge.attributes, list.vertex.attributes,
+    set.edge.attribute, set.vertex.attribute
+
+sna: Tools for Social Network Analysis
+Version 2.8 created on 2024-09-07.
+copyright (c) 2005, Carter T. Butts, University of California-Irvine
+ For citation information, type citation("sna").
+ Type help(package="sna") to get started.
+
+
+Attaching package: ‘sna’
+
+The following objects are masked from ‘package:igraph’:
+
+    betweenness, bonpow, closeness, components, degree, dyad.census,
+    evcent, hierarchy, is.connected, neighborhood, triad.census
+
+The following object is masked from ‘package:gt’:
+
+    gt
+
+The following object is masked from ‘package:nlme’:
+
+    gapply
+
+ This is bipartite 2.24.
+ For latest changes see versionlog in ?"bipartite-package". For citation see: citation("bipartite").
+ Have a nice time plotting and analysing two-mode networks.
+
+Attaching package: ‘bipartite’
+
+The following object is masked from ‘package:igraph’:
+
+    strength
+
+The following object is masked from ‘package:vegan’:
+
+    nullmodel
+
+
+Attaching package: ‘purrr’
+
+The following object is masked from ‘package:testthat’:
+
+    is_null
+
+The following objects are masked from ‘package:igraph’:
+
+    compose, simplify
+
+
+Attaching package: ‘flextable’
+
+The following object is masked from ‘package:purrr’:
+
+    compose
+
+The following object is masked from ‘package:OpenImageR’:
+
+    padding
+
+The following object is masked from ‘package:igraph’:
+
+    compose
+
+The following objects are masked from ‘package:ggpubr’:
+
+    border, font, rotate
+
+Loading Data...
+Running Supplementary Diagnostics...
+Running VCA Diagnostics (Outputs plots)...
+Running Model Selection Diagnostics...
+Running Slope Comparison Diagnostics...
+Diagnostics Complete. Proceeding to Main Analyses.
+Running Slope Comparison (Aggregated Model)...
+ Year mean_CP.trend      SE  df lower.CL upper.CL
+ 2022        0.0834 0.01860 231  0.04686   0.1200
+ 2023        0.1068 0.01710 231  0.07310   0.1405
+ 2024        0.0216 0.00676 231  0.00823   0.0349
+
+Confidence level used: 0.95 
+ contrast            estimate     SE  df t.ratio p.value
+ Year2022 - Year2023  -0.0234 0.0252 231  -0.927  0.6241
+ Year2022 - Year2024   0.0619 0.0197 231   3.133  0.0055
+ Year2023 - Year2024   0.0852 0.0184 231   4.637 <0.0001
+
+P value adjustment: tukey method for comparing a family of 3 estimates 
+Generating Backtransformed Plot for Aggregated Data...
+Generating Model Results Table (ANOVA)...
+Generating Pairwise Contrasts Table...
+Running Daily Stability Test (2024)...
+Running Variance Partitioning...
+Running SVD Analysis...
+Calculating CVs...
+Running Model Selection via ranova()...
+Running Monte Carlo Simulation per year (Global SVD Pool)...
+There were 28 warnings (use warnings() to see them)
+saved body_svd_A
+Warning messages:
+1: Removed 6 rows containing non-finite outside the scale range
+(`stat_boxplot()`). 
+2: Removed 6 rows containing non-finite outside the scale range (`stat_signif()`). 
+3: Removed 6 rows containing missing values or values outside the scale range
+(`geom_point()`). 
+saved body_svd_B
+Warning messages:
+1: Removed 6 rows containing non-finite outside the scale range
+(`stat_boxplot()`). 
+2: Removed 6 rows containing non-finite outside the scale range (`stat_signif()`). 
+3: Removed 6 rows containing missing values or values outside the scale range
+(`geom_point()`). 
+saved body_svd_C
+saved body_svd_D
+saved cv_A
+saved cv_B
+saved cv_C
+saved cv_D
+saved vca_A
+saved vca_B
+Warning messages:
+1: Groups with fewer than two data points have been dropped. 
+2: Groups with fewer than two data points have been dropped. 
+3: Groups with fewer than two data points have been dropped. 
+4: Groups with fewer than two data points have been dropped. 
+5: Groups with fewer than two data points have been dropped. 
+6: Removed 5 rows containing missing values or values outside the scale range
+(`geom_density()`). 
+saved mc_1
+saved mc_2
+saved mc_3
+saved mc_4
+saved stab_A
+saved stab_B
+saved stab_C
+saved stab_D
+saved spt_A
+saved spt_B
+saved spt_C
+Warning messages:
+1: Removed 14 rows containing non-finite outside the scale range
+(`stat_boxplot()`). 
+2: Removed 14 rows containing missing values or values outside the scale range
+(`geom_point()`). 

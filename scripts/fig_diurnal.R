@@ -8,7 +8,7 @@ green <- "#40695B"; coral <- "#F8765C"; slate <- "#64748B"; grid_col <- "#E2E8F0
 start_cols <- c("Succisa pratensis" = "#5B3F9A", "Centaurea jacea" = "#B0207F", "Trifolium hybridum" = "#2E9A50")
 theme_deck <- theme_minimal(base_size = 22, base_family = "sans") +
   theme(panel.grid.minor = element_blank(), panel.grid.major.y = element_blank(),
-        panel.grid.major.x = element_line(colour = grid_col),
+        panel.grid.major.x = element_blank(),
         axis.text = element_text(colour = "#334155"), axis.title = element_text(colour = "#1E293B"),
         plot.background = element_rect(fill = "white", colour = NA))
 
@@ -54,7 +54,7 @@ nd <- data.frame(hour = seq(8, 15.5, 0.1))
 nd$own <- predict(m1, nd, type = "response"); nd$foreign <- predict(m2, nd, type = "response")
 nd$share <- predict(m3, nd, type = "response")
 xs <- scale_x_continuous(breaks = 8:15, labels = paste0(8:15, ":00"), limits = c(8, 15.6))
-tl <- theme_deck + theme(panel.grid.major.y = element_line(colour = grid_col), legend.position = "top", legend.title = element_blank())
+tl <- theme_deck + theme(panel.grid.major.y = element_blank(), legend.position = "top", legend.title = element_blank())
 
 pA <- ggplot(b, aes(hour)) +
   geom_point(aes(y = own + 1, colour = "Own (Succisa) pollen"), alpha = 0.45, size = 2.6) +
@@ -63,15 +63,18 @@ pA <- ggplot(b, aes(hour)) +
   scale_colour_manual(values = c("Own (Succisa) pollen" = "#5B3F9A", "Foreign pollen" = coral), breaks = c("Own (Succisa) pollen", "Foreign pollen")) +
   xs + labs(x = NULL, y = "Pollen grains on the body") + tl
 ggsave(file.path(out, "diu_body_own.png"), pA, width = 10, height = 6, dpi = 200)
+ggsave(file.path("docs", out, "diu_body_own.png"), pA, width = 10, height = 6, dpi = 200)
 pB <- pA +
   geom_point(aes(y = foreign + 1, colour = "Foreign pollen"), alpha = 0.35, size = 2.6, shape = 17) +
   geom_line(data = nd, aes(y = foreign + 1, colour = "Foreign pollen"), linewidth = 1.8)
 ggsave(file.path(out, "diu_body_both.png"), pB, width = 10, height = 6, dpi = 200)
+ggsave(file.path("docs", out, "diu_body_both.png"), pB, width = 10, height = 6, dpi = 200)
 pC <- ggplot(b, aes(hour, share)) +
   geom_point(colour = "#5B3F9A", alpha = 0.45, size = 2.6) +
   geom_line(data = nd, aes(hour, share), colour = "#5B3F9A", linewidth = 1.8) +
   scale_y_continuous(labels = scales::percent, limits = c(0, 1)) +
   xs + labs(x = NULL, y = "Share of own pollen on the body") + tl
 ggsave(file.path(out, "diu_body_share.png"), pC, width = 10, height = 6, dpi = 200)
+ggsave(file.path("docs", out, "diu_body_share.png"), pC, width = 10, height = 6, dpi = 200)
 cat("Predicted own pollen at 8:30 and 14:30:", round(predict(m1, data.frame(hour = c(8.5, 14.5)), type = "response")), "\n")
 cat("Predicted share at 8:30 and 14:30:", round(predict(m3, data.frame(hour = c(8.5, 14.5)), type = "response"), 2), "\n")

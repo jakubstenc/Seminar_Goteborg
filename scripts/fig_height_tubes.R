@@ -6,7 +6,7 @@ src <- "../../FEG/Klara_Hodankova/data"; out <- "images"
 green <- "#40695B"; navy <- "#3B0F70"; plum <- "#8C2981"; coral <- "#F8765C"; slate <- "#64748B"; grid_col <- "#E2E8F0"
 theme_deck <- theme_minimal(base_size = 24, base_family = "sans") +
   theme(panel.grid.minor = element_blank(), panel.grid.major.x = element_blank(),
-        panel.grid.major.y = element_line(colour = grid_col),
+        panel.grid.major.y = element_blank(),
         axis.text = element_text(colour = "#334155"), axis.title = element_text(colour = "#1E293B"),
         plot.background = element_rect(fill = "white", colour = NA))
 
@@ -38,6 +38,7 @@ xl <- range(c(hl$height, d$plant_height))
 p1 <- ggplot(hl, aes(height)) + geom_histogram(binwidth = 5, boundary = 0, fill = "#CBD5E1", colour = "white") +
   scale_x_continuous(limits = xl) + labs(x = "Inflorescence height (cm)", y = "Inflorescences") + theme_deck
 ggsave(file.path(out, "ht_height_distribution.png"), p1, width = 9, height = 4, dpi = 200)
+ggsave(file.path("docs", out, "ht_height_distribution.png"), p1, width = 9, height = 4, dpi = 200)
 
 p2 <- ggplot(d, aes(plant_height, pollen)) +
   geom_ribbon(data = pp, aes(x = x, ymin = conf.low, ymax = conf.high), inherit.aes = FALSE, fill = green, alpha = 0.15) +
@@ -45,6 +46,7 @@ p2 <- ggplot(d, aes(plant_height, pollen)) +
   geom_line(data = pp, aes(x, predicted), inherit.aes = FALSE, colour = green, linewidth = 1.6) +
   scale_x_continuous(limits = xl) + labs(x = "Plant height (cm)", y = "Own pollen grains per stigma") + theme_deck
 ggsave(file.path(out, "ht_pollen_height.png"), p2, width = 9, height = 6, dpi = 200)
+ggsave(file.path("docs", out, "ht_pollen_height.png"), p2, width = 9, height = 6, dpi = 200)
 
 p3 <- ggplot(dt, aes(plant_height, prop)) +
   geom_ribbon(data = pb, aes(x = x, ymin = conf.low, ymax = conf.high), inherit.aes = FALSE, fill = coral, alpha = 0.18) +
@@ -53,6 +55,7 @@ p3 <- ggplot(dt, aes(plant_height, prop)) +
   scale_y_continuous(labels = scales::percent, limits = c(0, 1)) +
   scale_x_continuous(limits = xl) + labs(x = "Plant height (cm)", y = "Grains with a pollen tube") + theme_deck
 ggsave(file.path(out, "ht_tubes_height.png"), p3, width = 9, height = 6, dpi = 200)
+ggsave(file.path("docs", out, "ht_tubes_height.png"), p3, width = 9, height = 6, dpi = 200)
 
 # ---- Step figures with population height distribution as context --------
 m_tnb <- glmmTMB(tubes ~ poly(plant_height, 2) + (1 | plant / flower), data = filter(d, !is.na(tubes)), family = nbinom2)
@@ -76,6 +79,7 @@ sA <- ggplot() + geom_col(data = hb, aes(mid, n), width = 4.6, fill = "#94A3B8")
   annotate("text", x = med + 1.5, y = max(hb$n) * 0.95, label = paste0("median ", med, " cm"), hjust = 0, colour = navy, size = 7) +
   xs + labs(x = "Inflorescence height (cm)", y = "Inflorescences") + theme_deck
 ggsave(file.path(out, "ht_step1_distribution.png"), sA, width = 10, height = 6, dpi = 200)
+ggsave(file.path("docs", out, "ht_step1_distribution.png"), sA, width = 10, height = 6, dpi = 200)
 
 base <- ggplot() + bg + xs + coord_cartesian(ylim = c(0, ymax)) +
   labs(x = "Plant height (cm)", y = "Grains per stigma") + theme_deck +
@@ -86,11 +90,13 @@ sB <- base +
   geom_line(data = pp, aes(x, predicted, colour = "Pollen grains"), linewidth = 1.6) +
   scale_colour_manual(values = c("Pollen grains" = green, "Pollen tubes" = plum))
 ggsave(file.path(out, "ht_step2_pollen.png"), sB, width = 10, height = 6, dpi = 200)
+ggsave(file.path("docs", out, "ht_step2_pollen.png"), sB, width = 10, height = 6, dpi = 200)
 # no CI ribbon for tube counts: ggpredict CI from the observation-level random effect is uninformative
 sC <- sB +
   geom_point(data = filter(d, !is.na(tubes)), aes(plant_height, tubes, colour = "Pollen tubes"), alpha = 0.55, size = 3, shape = 17) +
   geom_line(data = pt, aes(x, predicted, colour = "Pollen tubes"), linewidth = 1.6)
 ggsave(file.path(out, "ht_step3_tubes.png"), sC, width = 10, height = 6, dpi = 200)
+ggsave(file.path("docs", out, "ht_step3_tubes.png"), sC, width = 10, height = 6, dpi = 200)
 
 hb2 <- hb |> mutate(y = n / max(n) * 0.55)
 sD <- ggplot() + geom_col(data = hb2, aes(mid, y), width = 4.6, fill = "#E2E8F0") +
@@ -100,3 +106,4 @@ sD <- ggplot() + geom_col(data = hb2, aes(mid, y), width = 4.6, fill = "#E2E8F0"
   scale_y_continuous(labels = scales::percent, limits = c(0, 1)) + xs +
   labs(x = "Plant height (cm)", y = "Grains with a pollen tube") + theme_deck
 ggsave(file.path(out, "ht_step4_proportion.png"), sD, width = 10, height = 6, dpi = 200)
+ggsave(file.path("docs", out, "ht_step4_proportion.png"), sD, width = 10, height = 6, dpi = 200)

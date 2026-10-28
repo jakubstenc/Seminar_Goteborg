@@ -10,17 +10,19 @@ coral <- "#F8765C"; peach <- "#FEB47B"; slate <- "#64748B"; grid_col <- "#E2E8F0
 yellow_fl <- "#F2C200"
 theme_deck <- theme_minimal(base_size = 24, base_family = "sans") +
   theme(panel.grid.minor = element_blank(), panel.grid.major.x = element_blank(),
-        panel.grid.major.y = element_line(colour = grid_col),
+        panel.grid.major.y = element_blank(),
         axis.text = element_text(colour = "#334155"), axis.title = element_text(colour = "#1E293B"),
         legend.position = "top", legend.title = element_blank(),
         plot.background = element_rect(fill = "white", colour = NA))
 
-# ---- 1. Flower constancy across pollinator groups (synthesis, in prep.) ----
+# ---- 1. Flower constancy across pollinator groups: Handrkov field experiments only ----
+# The dataset also holds literature values; only our own Handrkov data (source "Sedlackova_2024") are used.
 v <- read.table(file.path(pc, "2025/Constancy_Preference_2025/data/Stenc_Janovsky_2025_dataset.txt"),
                 header = TRUE, sep = "\t", stringsAsFactors = TRUE) |>
-  filter(method != "natural pop.")
-v$poll.group <- factor(v$poll.group, levels = c("honeybee", "bumblebees", "oth. bees", "butterflies", "hoverflies"),
-                       labels = c("Honeybee", "Bumblebees", "Other bees", "Butterflies", "Hoverflies"))
+  filter(source == "Sedlackova_2024") |>
+  droplevels()
+v$poll.group <- factor(v$poll.group, levels = c("honeybee", "bumblebees", "hoverflies"),
+                       labels = c("Honeybee", "Bumblebees", "Hoverflies"))
 m <- glm(cbind(const.trans, n.tot - const.trans) ~ poll.group, data = v, family = quasibinomial)
 nd <- data.frame(poll.group = levels(v$poll.group))
 pr <- predict(m, nd, type = "link", se.fit = TRUE)
@@ -28,7 +30,7 @@ nd <- nd |> mutate(fit = plogis(pr$fit), lcl = plogis(pr$fit - 2 * pr$se.fit), u
                    n = as.vector(table(v$poll.group)),
                    poll.group = factor(poll.group, levels = levels(v$poll.group)))
 v$prop <- v$const.trans / v$n.tot
-grp_cols <- c(Honeybee = navy, Bumblebees = plum, `Other bees` = rose, Butterflies = peach, Hoverflies = coral)
+grp_cols <- c(Honeybee = navy, Bumblebees = plum, Hoverflies = coral)
 pconst <- ggplot(nd, aes(poll.group, fit, colour = poll.group)) +
   geom_jitter(data = v, aes(y = prop), width = 0.15, height = 0, alpha = 0.35, size = 2.5) +
   geom_errorbar(aes(ymin = lcl, ymax = ucl), width = 0, linewidth = 1.4) +
@@ -39,6 +41,7 @@ pconst <- ggplot(nd, aes(poll.group, fit, colour = poll.group)) +
   labs(x = NULL, y = "Decisions due to flower constancy") +
   theme_deck
 ggsave(file.path(out, "behav_constancy_groups.png"), pconst, width = 10, height = 6.2, dpi = 200)
+ggsave(file.path("docs", out, "behav_constancy_groups.png"), pconst, width = 10, height = 6.2, dpi = 200)
 cat("Constancy GLM:\n"); print(anova(m, test = "F")); print(nd)
 
 # ---- 2. Eristalis tenax: visits to yellow forms, naive vs experienced ------
@@ -59,6 +62,7 @@ pyel <- ggplot(vis, aes(group, share, fill = colour)) +
   labs(x = NULL, y = "Share of visits") +
   theme_deck + theme(legend.position = "right")
 ggsave(file.path(out, "behav_yellow_share.png"), pyel, width = 8, height = 6.2, dpi = 200)
+ggsave(file.path("docs", out, "behav_yellow_share.png"), pyel, width = 8, height = 6.2, dpi = 200)
 print(vis)
 
 # ---- 3. Succisa stigma loads per year vs summer drought --------------------
@@ -79,4 +83,5 @@ pdep <- ggplot(dsum, aes(year, m, colour = type, group = type)) +
   labs(x = NULL, y = "Pollen grains per stigma") +
   theme_deck
 ggsave(file.path(out, "dep_cp_hp_years.png"), pdep, width = 9, height = 6.2, dpi = 200)
+ggsave(file.path("docs", out, "dep_cp_hp_years.png"), pdep, width = 9, height = 6.2, dpi = 200)
 print(dsum)

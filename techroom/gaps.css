@@ -1,32 +1,13 @@
-/* Drafting helpers for the Göteborg seminar. Delete the .gap boxes as you fill them in. */
+/* Drafting helpers for the Göteborg seminar. Hidden for final presentation. */
 .reveal .gap {
-  border: 3px dashed #F8765C;
-  background: rgba(254, 180, 123, 0.12);
-  border-radius: 10px;
-  padding: 12px 18px;
-  font-size: 20px;
-  line-height: 1.35;
-  color: #7A2E1F;
-  text-align: left;
+  display: none !important;
 }
 .reveal .gap::before {
-  content: "TO FILL";
-  display: block;
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  color: #F8765C;
-  margin-bottom: 4px;
+  content: "";
+  display: none !important;
 }
 .reveal .timing {
-  position: absolute;
-  top: -2px;
-  right: 80px;
-  font-size: 14px;
-  color: #FFFFFF;
-  background: #40695B;
-  border-radius: 12px;
-  padding: 2px 10px;
+  display: none !important;
 }
 .reveal .src {
   font-size: 15px;
