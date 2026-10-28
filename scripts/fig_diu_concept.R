@@ -92,15 +92,10 @@ g <- ggplot() +
            linewidth = 1.1, linetype = "22", arrow = arrow(length = unit(0.22, "cm"), type = "closed")) +
   annotate("text", x = c(20.4, 28.6), y = 0.68, label = "rewiring", size = 4.8, colour = slate,
            fontface = "italic") +
-  # focal pollinator note (drawn ring + text)
-  annotate("point", x = 18.3, y = 1.95, shape = 21, size = 7, stroke = 1.6, colour = ink, fill = NA) +
-  annotate("text", x = 18.9, y = 1.95, hjust = 0, size = 5.6, colour = ink, fontface = "italic",
-           label = "one pollinator: in the daily web it has 3 partners,\nbut only 1 at a time, a different plant each hour",
-           lineheight = 0.95) +
-  coord_cartesian(xlim = c(-4.2, 36.2), ylim = c(-0.85, 2.35), clip = "off") +
+  coord_cartesian(xlim = c(-4.2, 36.2), ylim = c(-0.85, 1.85), clip = "off") +
   theme_void() +
   theme(plot.background = element_rect(fill = "white", colour = NA),
-        plot.margin = margin(18, 10, 5, 10))
+        plot.margin = margin(12, 10, 5, 10))
 
 ggsave(file.path(out, "diu_conceptual.png"), g, width = 13, height = 4.9, dpi = 200)
 file.copy(file.path(out, "diu_conceptual.png"), file.path("docs/images", "diu_conceptual.png"), overwrite = TRUE)

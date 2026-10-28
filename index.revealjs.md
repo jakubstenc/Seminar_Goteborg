@@ -852,38 +852,33 @@ Focal Pollinators (Curves)
 ::::: columns
 ::: {.column width="32%"}
 ```{=html}
-<div style="background: #F8FAFC; border: 1.5px solid #E2E8F0; border-radius: 14px; padding: 14px 12px; height: 490px; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
-  <div>
-    <div style="font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; color: #64748B; margin-bottom: 10px; display: flex; align-items: center; gap: 6px;">
-      <span style="background: #40695B; color: white; width: 22px; height: 22px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700;">1</span>
-      3 Focal Plant Species
-    </div>
-    <div style="display: flex; flex-direction: column; gap: 10px;">
-      <div style="display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-left: 4px solid #31A354; background: rgba(49,163,84,0.08); border-radius: 0 10px 10px 0;">
-        <img src="images/sp_trifolium_head.jpg" style="width: 52px; height: 52px; border-radius: 8px; object-fit: cover; border: 2px solid #31A354; flex-shrink: 0;">
-        <div>
-          <div style="font-weight: 700; color: #31A354; font-size: 15px; line-height: 1.2;"><em>Trifolium hybridum</em></div>
-          <div style="font-size: 12px; color: #64748B; margin-top: 2px;">Mid-day presentation · Honeybees</div>
-        </div>
-      </div>
-      <div style="display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-left: 4px solid #D01C8B; background: rgba(208,28,139,0.08); border-radius: 0 10px 10px 0;">
-        <img src="images/sp_centaurea_head.jpg" style="width: 52px; height: 52px; border-radius: 8px; object-fit: cover; border: 2px solid #D01C8B; flex-shrink: 0;">
-        <div>
-          <div style="font-weight: 700; color: #D01C8B; font-size: 15px; line-height: 1.2;"><em>Centaurea jacea</em></div>
-          <div style="font-size: 12px; color: #64748B; margin-top: 2px;">Afternoon pump · Bees &amp; Bumblebees</div>
-        </div>
-      </div>
-      <div style="display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-left: 4px solid #5E3C99; background: rgba(94,60,153,0.08); border-radius: 0 10px 10px 0;">
-        <img src="images/sp_succisa_head.jpg" style="width: 52px; height: 52px; border-radius: 8px; object-fit: cover; border: 2px solid #5E3C99; flex-shrink: 0;">
-        <div>
-          <div style="font-weight: 700; color: #5E3C99; font-size: 15px; line-height: 1.2;"><em>Succisa pratensis</em></div>
-          <div style="font-size: 12px; color: #64748B; margin-top: 2px;">Morning release · Early hoverflies</div>
-        </div>
-      </div>
-    </div>
+<div style="background: #F8FAFC; border: 1.5px solid #E2E8F0; border-radius: 14px; padding: 16px 12px; height: 490px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+  <div style="font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; color: #64748B; margin-bottom: 14px; display: flex; align-items: center; gap: 6px;">
+    <span style="background: #40695B; color: white; width: 22px; height: 22px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700;">1</span>
+    3 Focal Plant Species
   </div>
-  <div style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 8px; padding: 8px 10px; font-size: 13px; color: #475569; line-height: 1.35;">
-    <strong>Detailed focal species:</strong> diurnal timing, pollen availability, and purity dynamics
+  <div style="display: flex; flex-direction: column; gap: 14px; margin-top: 10px;">
+    <div style="display: flex; align-items: center; gap: 10px; padding: 10px 10px; border-left: 4px solid #31A354; background: rgba(49,163,84,0.08); border-radius: 0 10px 10px 0;">
+      <img src="images/sp_trifolium_head.jpg" style="width: 58px; height: 58px; border-radius: 8px; object-fit: cover; border: 2px solid #31A354; flex-shrink: 0;">
+      <div>
+        <div style="font-weight: 700; color: #31A354; font-size: 16px; line-height: 1.2;"><em>Trifolium hybridum</em></div>
+        <div style="font-size: 12px; color: #64748B; margin-top: 2px;">Mid-day presentation · Honeybees</div>
+      </div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 10px; padding: 10px 10px; border-left: 4px solid #D01C8B; background: rgba(208,28,139,0.08); border-radius: 0 10px 10px 0;">
+      <img src="images/sp_centaurea_head.jpg" style="width: 58px; height: 58px; border-radius: 8px; object-fit: cover; border: 2px solid #D01C8B; flex-shrink: 0;">
+      <div>
+        <div style="font-weight: 700; color: #D01C8B; font-size: 16px; line-height: 1.2;"><em>Centaurea jacea</em></div>
+        <div style="font-size: 12px; color: #64748B; margin-top: 2px;">Afternoon pump · Bees &amp; Bumblebees</div>
+      </div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 10px; padding: 10px 10px; border-left: 4px solid #5E3C99; background: rgba(94,60,153,0.08); border-radius: 0 10px 10px 0;">
+      <img src="images/sp_succisa_head.jpg" style="width: 58px; height: 58px; border-radius: 8px; object-fit: cover; border: 2px solid #5E3C99; flex-shrink: 0;">
+      <div>
+        <div style="font-weight: 700; color: #5E3C99; font-size: 16px; line-height: 1.2;"><em>Succisa pratensis</em></div>
+        <div style="font-size: 12px; color: #64748B; margin-top: 2px;">Morning release · Early hoverflies</div>
+      </div>
+    </div>
   </div>
 </div>
 ```
@@ -904,23 +899,13 @@ Focal Pollinators (Curves)
 
 ::: {.column width="60%"}
 ```{=html}
-<div style="background: #F8FAFC; border: 1.5px solid #E2E8F0; border-radius: 14px; padding: 14px 16px; height: 490px; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
-  <div>
-    <div style="font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; color: #3B0F70; margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
-      <span style="background: #3B0F70; color: white; width: 22px; height: 22px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700;">2</span>
-      Meadow-wide Plant Network (Pollen Sharing)
-    </div>
-    <div style="background: #FFFFFF; border-radius: 10px; padding: 8px; border: 1px solid #E2E8F0; text-align: center;">
-      <img src="images/plant_network_sharing_clean.png" style="width: 100%; max-height: 290px; object-fit: contain; display: block; margin: 0 auto;">
-    </div>
+<div style="background: #F8FAFC; border: 1.5px solid #E2E8F0; border-radius: 14px; padding: 16px 16px; height: 490px; box-shadow: 0 4px 12px rgba(0,0,0,0.03); display: flex; flex-direction: column;">
+  <div style="font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; color: #3B0F70; margin-bottom: 12px; display: flex; align-items: center; gap: 6px;">
+    <span style="background: #3B0F70; color: white; width: 22px; height: 22px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700;">2</span>
+    Meadow-wide Plant Network (Pollen Sharing)
   </div>
-  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 6px;">
-    <div style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 8px; padding: 8px 10px; font-size: 13px; color: #334155; line-height: 1.3;">
-      <strong style="color: #40695B;">Community context:</strong> Dozens of co-flowering plant species connected by shared flower visitors
-    </div>
-    <div style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 8px; padding: 8px 10px; font-size: 13px; color: #334155; line-height: 1.3;">
-      <strong style="color: #3B0F70;">The next question:</strong> Across all 618 flower visitors, who actually carries the bulk of pollen?
-    </div>
+  <div style="background: #FFFFFF; border-radius: 10px; padding: 10px; border: 1px solid #E2E8F0; text-align: center; flex: 1; display: flex; align-items: center; justify-content: center;">
+    <img src="images/plant_network_sharing_clean.png" style="width: 100%; height: 380px; object-fit: contain; display: block; margin: 0 auto;">
   </div>
 </div>
 ```
@@ -1639,11 +1624,6 @@ Manuscript draft (DiuHanPolNet); numbers may change.
 
 ![](images/diu_winners_dumbbell.png){height="450"}
 
-::: {.fragment style="margin-top: 10px;"}
-::: bigmsg
-The losers in space are the biggest winners in time.
-:::
-:::
 
 ::: src
 Reduction in apparent competition from diurnal stratification · 15-year mean (2011–2025) · DiuHanPolNet
@@ -1655,6 +1635,83 @@ Who gains the most from splitting the day?
 2. The core drivers (Centaurea jacea, Succisa pratensis) gain the least (−8%). They don't need to hide: they dominate the crowded midday hours.
 3. In pollinators, subordinate foragers (Zygaena moths −45%, muscid flies −32%, small hoverflies −28%) escape dominant competitors (Apis, Bombus −12% to −13%) by using temporal refuges.
 Space and time act as orthogonal escape routes for biodiversity.
+:::
+
+## Three axes of ecological interactions
+
+<span class="timing">≈ 1 min</span>
+
+<div style="display: flex; justify-content: center; align-items: stretch; gap: 28px; margin-top: 36px; max-width: 960px; margin-left: auto; margin-right: auto;">
+
+<div class="fragment" data-fragment-index="1" style="flex: 1; background: #F8FAFC; border-top: 6px solid #2F5C4F; border-radius: 14px; padding: 24px 16px; text-align: center; box-shadow: 0 4px 16px rgba(0,0,0,0.05); display: flex; flex-direction: column; align-items: center; justify-content: center;">
+<svg width="68" height="68" viewBox="0 0 24 24" fill="none" stroke="#2F5C4F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+  <circle cx="12" cy="10" r="3"></circle>
+</svg>
+<div style="font-size: 26px; font-weight: 800; color: #2F5C4F; margin-top: 14px; letter-spacing: 0.5px;">SPACE</div>
+<div style="font-size: 16px; color: #64748B; margin-top: 4px; font-weight: 500;">where you grow</div>
+</div>
+
+<div class="fragment" data-fragment-index="2" style="flex: 1; background: #F8FAFC; border-top: 6px solid #F8765C; border-radius: 14px; padding: 24px 16px; text-align: center; box-shadow: 0 4px 16px rgba(0,0,0,0.05); display: flex; flex-direction: column; align-items: center; justify-content: center;">
+<svg width="68" height="68" viewBox="0 0 24 24" fill="none" stroke="#F8765C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+  <line x1="16" y1="2" x2="16" y2="6"></line>
+  <line x1="8" y1="2" x2="8" y2="6"></line>
+  <line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+<div style="font-size: 26px; font-weight: 800; color: #F8765C; margin-top: 14px; letter-spacing: 0.5px;">YEAR</div>
+<div style="font-size: 16px; color: #64748B; margin-top: 4px; font-weight: 500;">the climate you face</div>
+</div>
+
+<div class="fragment" data-fragment-index="3" style="flex: 1; background: #F8FAFC; border-top: 6px solid #3B0F70; border-radius: 14px; padding: 24px 16px; text-align: center; box-shadow: 0 4px 16px rgba(0,0,0,0.05); display: flex; flex-direction: column; align-items: center; justify-content: center;">
+<svg width="68" height="68" viewBox="0 0 24 24" fill="none" stroke="#3B0F70" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="10"></circle>
+  <polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+<div style="font-size: 26px; font-weight: 800; color: #3B0F70; margin-top: 14px; letter-spacing: 0.5px;">TIME</div>
+<div style="font-size: 16px; color: #64748B; margin-top: 4px; font-weight: 500;">when you flower</div>
+</div>
+
+</div>
+
+::: {.fragment data-fragment-index="4" style="margin-top: 50px; text-align: center;"}
+::: {.bigmsg style="font-size: 25px; padding: 16px 32px; max-width: 860px; margin-left: auto; margin-right: auto;"}
+What actually governs each interaction: <span style="color: #68BB93; font-weight: 800;">space</span>, <span style="color: #FEB47B; font-weight: 800;">year</span>, or <span style="color: #D6A4E8; font-weight: 800;">time</span>?
+:::
+:::
+
+::: notes
+Up until now, networks have mostly been viewed as static webs.
+In reality, interactions vary across three fundamental physical dimensions:
+1. Space: micro-spatial clumping within plots.
+2. Year: macro-climate shocks and boom-and-bust population dynamics across 15 seasons.
+3. Time: diurnal phenology and hourly schedules.
+The question is: does the entire network respond as a whole, or is each pairwise interaction governed by a different axis?
+:::
+
+## Outlook: Beyond static networks
+
+<span class="timing">≈ 1 min</span>
+
+![](images/dyadic_drivers_ab.png){height="380" fig-align="center"}
+
+::: {.fragment style="margin-top: 6px;"}
+::: {.bigmsg style="font-size: 22px; padding: 10px 24px;"}
+Every link in the network is governed by a different axis of nature.
+:::
+:::
+
+::: src
+Dyadic variance partitioning of apparent competition (608 plant–plant links) · Handrkov 2011–2025 · Štenc et al. (in prep.)
+:::
+
+::: notes
+Novel conceptual framework: Instead of asking what the network looks like as a static graph, we deconstruct what DRIVES each link.
+1. Network modularity is not just a topological artifact—modules are governed by different physical dimensions!
+2. Spatial aggregation governs the core (76% space): Dominant composites (Centaurea, Succisa) are bound by micro-spatial clumping within plots.
+3. Climate volatility governs the generalist bridges (up to 44% year): White umbels (Heracleum, Daucus) link modules via boom-and-bust insect years.
+4. Diurnal phenology buffers the subordinates (-45% PAC): Subordinate legumes (Lathyrus, Trifolium) escape spatial bullies via morning temporal refuges.
+Every edge in an ecological network has its own mechanistic driver profile.
 :::
 
 ## From pollen on the stigma to seeds
@@ -1718,7 +1775,7 @@ Concept, not data. Pollen-transfer networks built from stigma loads and body loa
 ::: {style="background: #FFFFFF; border: 1px solid #E2E8F0; border-top: 6px solid #F8765C; border-radius: 10px; padding: 10px 8px 12px 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); text-align: center;"}
 <h3 style="font-size: 25px; color: #F8765C; margin: 2px 0 6px 0;">02 Numbers</h3>
 <div style="font-size: 20px; font-weight: 600; line-height: 1.3; color: #1E293B; margin-bottom: 12px;">Many noisy visits give a stable dose of own pollen. Foreign pollen follows the landscape</div>
-<img src="images/pathway/TPD_HP.png" style="width: 100%; height: 260px; object-fit: contain; border-radius: 6px; background: #FAFAFA; border: 1px solid #F1F5F9; padding: 4px;">
+<img src="images/pathway/TPD.png" style="width: 100%; height: 260px; object-fit: contain; border-radius: 6px; background: #FAFAFA; border: 1px solid #F1F5F9; padding: 4px;">
 :::
 :::
 :::
@@ -1728,7 +1785,7 @@ Concept, not data. Pollen-transfer networks built from stigma loads and body loa
 ::: {style="background: #FFFFFF; border: 1px solid #E2E8F0; border-top: 6px solid #40695B; border-radius: 10px; padding: 10px 8px 12px 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); text-align: center;"}
 <h3 style="font-size: 25px; color: #40695B; margin: 2px 0 6px 0;">03 Community</h3>
 <div style="font-size: 20px; font-weight: 600; line-height: 1.3; color: #1E293B; margin-bottom: 12px;">A stable core carries the network, and drought makes it ever more important</div>
-<img src="images/kcore_step3_core.png" style="width: 100%; height: 260px; object-fit: contain; border-radius: 6px; background: #FAFAFA; border: 1px solid #F1F5F9; padding: 4px;">
+<img src="images/plant_network_sharing_clean.png" style="width: 100%; height: 260px; object-fit: contain; border-radius: 6px; background: #FAFAFA; border: 1px solid #F1F5F9; padding: 4px;">
 :::
 :::
 :::
@@ -2303,32 +2360,6 @@ Each sample is one plot on one day in one part of the day (7–10, 11–13, 14�
 Who visits (30 % in total): year 13 % (6.5 % alone), plants visited 21 % (8 % alone), position 9 % but only 0.6 % alone, i.e. space works through the plants. Date 2 %, hour 1 %.
 What is visited (49 % in total): position 30 % (11 % alone), pollinators 32 % (10 % alone), year 12 % (3.5 % alone). Date 2 %, hour 1 %.
 Hour is small at the community level because the same taxa are active all day; its effect is in who visits which plant at which hour (the earlier slides), not in which taxa are present.
-:::
-
-
-## Backup: Outlook: Beyond static networks
-
-<span class="timing">≈ 1 min</span>
-
-![](images/dyadic_drivers_ab.png){height="520" fig-align="center"}
-
-::: {.fragment style="margin-top: 10px;"}
-::: bigmsg
-Every link in the network is governed by a different axis of nature.
-:::
-:::
-
-::: src
-Dyadic variance partitioning of apparent competition (608 plant–plant links) · Handrkov 2011–2025 · Štenc et al. (in prep.)
-:::
-
-::: notes
-Novel conceptual framework: Instead of asking what the network looks like as a static graph, we deconstruct what DRIVES each link.
-1. Network modularity is not just a topological artifact—modules are governed by different physical dimensions!
-2. Spatial aggregation governs the core (76% space): Dominant composites (Centaurea, Succisa) are bound by micro-spatial clumping within plots.
-3. Climate volatility governs the generalist bridges (up to 44% year): White umbels (Heracleum, Daucus) link modules via boom-and-bust insect years.
-4. Diurnal phenology buffers the subordinates (-45% PAC): Subordinate legumes (Lathyrus, Trifolium) escape spatial bullies via morning temporal refuges.
-Every edge in an ecological network has its own mechanistic driver profile.
 :::
 
 
