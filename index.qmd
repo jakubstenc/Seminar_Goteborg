@@ -2306,32 +2306,6 @@ Hour is small at the community level because the same taxa are active all day; i
 :::
 
 
-## Backup: Outlook: Beyond static networks
-
-<span class="timing">≈ 1 min</span>
-
-![](images/dyadic_drivers_ab.png){height="520" fig-align="center"}
-
-::: {.fragment style="margin-top: 10px;"}
-::: bigmsg
-Every link in the network is governed by a different axis of nature.
-:::
-:::
-
-::: src
-Dyadic variance partitioning of apparent competition (608 plant–plant links) · Handrkov 2011–2025 · Štenc et al. (in prep.)
-:::
-
-::: notes
-Novel conceptual framework: Instead of asking what the network looks like as a static graph, we deconstruct what DRIVES each link.
-1. Network modularity is not just a topological artifact—modules are governed by different physical dimensions!
-2. Spatial aggregation governs the core (76% space): Dominant composites (Centaurea, Succisa) are bound by micro-spatial clumping within plots.
-3. Climate volatility governs the generalist bridges (up to 44% year): White umbels (Heracleum, Daucus) link modules via boom-and-bust insect years.
-4. Diurnal phenology buffers the subordinates (-45% PAC): Subordinate legumes (Lathyrus, Trifolium) escape spatial bullies via morning temporal refuges.
-Every edge in an ecological network has its own mechanistic driver profile.
-:::
-
-
 ## Backup: The system in one picture
 
 <span class="timing">≈ 1 min</span>
