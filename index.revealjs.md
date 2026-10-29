@@ -191,7 +191,7 @@ So after Sweden visited Prague, and Wilhelm visited Prague... now I am visiting 
 </div>
 
 <div style="background: #F8FAFC; border-left: 5px solid #F8765C; border-radius: 0 10px 10px 0; padding: 18px 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
-<div style="font-weight: 700; color: #1E293B; font-size: 20px;">Beyond flower-visitor lists</div>
+<div style="font-weight: 700; color: #1E293B; font-size: 20px;">Handrkov meadow </div>
 </div>
 
 </div>
@@ -294,11 +294,6 @@ Pollination does not happen as an isolated interaction between one flower and on
 </div>
 </div>
 
-::: {.fragment style="margin-top: 34px;"}
-::: bigmsg
-Pollinators are declining, and most pollination happens<br>in diverse communities where <span style="color: #FEB47B;">plants share their pollinators</span>.
-:::
-:::
 
 ::: notes
 Ollerton et al. 2011: about 87.5 % of flowering plant species are animal-pollinated (higher in the tropics, about 78 % in temperate communities).
@@ -904,8 +899,17 @@ Focal Pollinators (Curves)
     <span style="background: #3B0F70; color: white; width: 22px; height: 22px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700;">2</span>
     Meadow-wide Plant Network (Pollen Sharing)
   </div>
-  <div style="background: #FFFFFF; border-radius: 10px; padding: 10px; border: 1px solid #E2E8F0; text-align: center; flex: 1; display: flex; align-items: center; justify-content: center;">
+  <div style="position: relative; background: #FFFFFF; border-radius: 10px; padding: 10px; border: 1px solid #E2E8F0; text-align: center; flex: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
     <img src="images/plant_network_sharing_clean.png" style="width: 100%; height: 380px; object-fit: contain; display: block; margin: 0 auto;">
+
+    <div class="fragment" data-fragment-index="1" style="position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); padding: 10px; z-index: 5;">
+      <div style="background: #FFFFFF; border-radius: 12px; padding: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.18); border: 2px solid rgba(64,105,91,0.25); text-align: center; max-width: 90%;">
+        <img src="images/m_swab.png" style="height: 275px; max-width: 100%; border-radius: 8px; object-fit: cover; display: block; margin: 0 auto;">
+        <div style="margin-top: 8px; font-size: 15px; font-weight: 700; color: #40695B; line-height: 1.3;">
+          Swabbing pollen loads across the entire flower-visitor network
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 ```
@@ -916,7 +920,8 @@ Focal Pollinators (Curves)
 Transition slide from START II to Martin Freudenfeld's meadow-wide work.
 - So far, we focused on 3 focal plant species (Trifolium, Centaurea, Succisa) and their diurnal pollen dynamics.
 - But in real meadows, co-flowering plants are embedded in dense interaction networks linked by generalist flower visitors.
-- Next step: we scale up to the entire meadow community, swabbing body pollen loads across all flower visitors to ask: who really carries the pollen?
+- Step (click): To capture the real pollen-flow structure, we applied our swabbing protocol across all flower visitors visiting any flowering plant in the meadow.
+- Next: who really carries the pollen in this community?
 :::
 
 ## Who carries the pollen?
@@ -1054,7 +1059,7 @@ Here we compare each plant species' share of community flower visits (grey) agai
 
 ::: {style="margin-top: 120px;"}
 ::: bigmsg
-Plants cannot choose their pollinators,<br>but they can choose **when** to offer pollen.<br><span style="color: #FEB47B;">Who carries it, and how faithfully, changes with the year and with experience.</span>
+Plants cannot choose their pollinators,<br>but they can choose **when** to offer pollen.<br><span style="color: #FEB47B;">And what visits a flower does not dictate what it actually carries.</span>
 :::
 :::
 
@@ -1248,6 +1253,12 @@ Variance partitioning of TPD (693 stigmas, 273 plants, 2022–2024): years and d
 ![](images/lln_graphical_abstract_v2.png){.fragment .fade-out fragment-index=1 fig-align="center" height="520"}
 
 ![](images/lln_fig_monte_carlo.png){.fragment .fade-in fragment-index=1 fig-align="center" height="520"}
+:::
+
+::: {.fragment .absolute fragment-index=2 top="32%" left="12%" width="76%"}
+::: bigmsg
+Many noisy visits accumulate into a<br><span style="color: #FEB47B;">stable conspecific pollen load.</span>
+:::
 :::
 
 ::: notes
